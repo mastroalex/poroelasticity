@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    626500,      12368]
-NotebookOptionsPosition[    618158,      12213]
-NotebookOutlinePosition[    618657,      12231]
-CellTagsIndexPosition[    618614,      12228]
+NotebookDataLength[    629356,      12436]
+NotebookOptionsPosition[    621208,      12283]
+NotebookOutlinePosition[    621704,      12301]
+CellTagsIndexPosition[    621661,      12298]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -871,17 +871,18 @@ Cell[BoxData[{
       RowBox[{"{", 
        RowBox[{
        "\"\<E -elastic modulus\>\"", ",", "\"\<\[Nu] -poisson ratio\>\"", ",",
-         "\[IndentingNewLine]", "\"\<kc -flux constant\>\"", ",", 
+         "\[IndentingNewLine]", "\"\<kp -flux constant\>\"", ",", 
         "\"\<ceq -equilibrium concentration\>\"", ",", 
-        "\"\<\[Mu]o -reference potential\>\"", ",", "\[IndentingNewLine]", 
-        "\"\<Dc -diffusivity constant\>\"", ",", 
-        "\"\<m -mobility parameter\>\""}], "}"}]}], ",", 
+        "\"\<Kdr -drained bulk modulus\>\"", ",", "\"\<G -shear modulus \>\"",
+         ",", "\[IndentingNewLine]", "\"\<M -biot modolus\>\"", ",", 
+        "\"\<\[Alpha] -biot coefficient\>\""}], "}"}]}], ",", 
      "\[IndentingNewLine]", 
      RowBox[{"\"\<SMSDefaultData\>\"", "\[Rule]", 
       RowBox[{"{", 
-       RowBox[{
-       "1", ",", "0.3", ",", "1", ",", "1", ",", "0", ",", "1", ",", "1"}], 
-       "}"}]}]}], "\[IndentingNewLine]", "]"}], ";"}], 
+       RowBox[{"1", ",", "0.3", ",", 
+        SuperscriptBox["10", 
+         RowBox[{"-", "2"}]], ",", "1", ",", "100", ",", "50", ",", "1000", 
+        ",", "0.75"}], "}"}]}]}], "\[IndentingNewLine]", "]"}], ";"}], 
   "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{"RelevantNumbers", "[", "]"}], ":=", 
@@ -899,7 +900,9 @@ Cell[BoxData[{
  CellChangeTimes->{{3.849660655364633*^9, 3.849660676815508*^9}, {
   3.84966071754423*^9, 3.84966075343465*^9}, {3.849660984283053*^9, 
   3.849660987337525*^9}, {3.849661019470457*^9, 3.849661025125615*^9}, {
-  3.849661157932836*^9, 3.849661170466498*^9}},
+  3.849661157932836*^9, 3.849661170466498*^9}, {3.849707923018735*^9, 
+  3.849707942840988*^9}, {3.849708559514041*^9, 3.849708602927745*^9}, {
+  3.8497086378075933`*^9, 3.849708678423839*^9}},
  CellLabel->"In[1]:=",ExpressionUUID->"5e2d9a04-8387-4439-8571-140f1b57ce2f"]
 }, Open  ]],
 
@@ -923,8 +926,8 @@ Cell[BoxData[
      RowBox[{
       RowBox[{"{", 
        RowBox[{
-       "Ee", ",", "\[Nu]", ",", "kc", ",", "ceq", ",", "\[Mu]o", ",", "Dc", 
-        ",", "m"}], "}"}], "\[DoubleRightTee]", 
+       "Ee", ",", "\[Nu]", ",", "kp", ",", "ceq", ",", "Kdr", ",", "G", ",", 
+        "M", ",", "\[Alpha]"}], "}"}], "\[DoubleRightTee]", 
       RowBox[{"SMSIO", "[", "\"\<Domain data\>\"", "]"}]}], ";", 
      "\[IndentingNewLine]", 
      RowBox[{"(*", 
@@ -1115,7 +1118,9 @@ Cell[BoxData[
           RowBox[{"Transpose", "[", "\[DoubleStruckCapitalH]n", "]"}]}], 
          ")"}], "/", "2"}], ",", 
        RowBox[{"\"\<Symmetric\>\"", "\[Rule]", " ", "True"}]}], "]"}], ";", 
-     "\[IndentingNewLine]", "\[IndentingNewLine]", 
+     "\[IndentingNewLine]", 
+     RowBox[{"\[Epsilon]nvol", "=", 
+      RowBox[{"Tr", "[", "\[Epsilon]n", "]"}]}], ";", "\[IndentingNewLine]", 
      RowBox[{"(*", 
       RowBox[{"DISCRETE", " ", "TIME", " ", "DERIVATIVE"}], "*)"}], 
      "\[IndentingNewLine]", 
@@ -1131,22 +1136,25 @@ Cell[BoxData[
      RowBox[{"D\[Epsilon]volDt", "\[DoubleRightTee]", 
       RowBox[{
        RowBox[{"(", 
-        RowBox[{"\[Epsilon]", "-", "\[Epsilon]n"}], ")"}], "/", 
+        RowBox[{"\[Epsilon]vol", "-", "\[Epsilon]nvol"}], ")"}], "/", 
        "\[CapitalDelta]t"}]}], ";", "\[IndentingNewLine]", 
      "\[IndentingNewLine]", 
      RowBox[{"(*", 
       RowBox[{"ELASTIC", " ", "ENERGY"}], "*)"}], "\[IndentingNewLine]", 
-     RowBox[{
-      RowBox[{"{", 
-       RowBox[{"G", ",", "K"}], "}"}], "\[DoubleRightTee]", 
-      RowBox[{"SMSHookeToBulk", "[", 
-       RowBox[{"Ee", ",", "\[Nu]"}], "]"}]}], ";", "\[IndentingNewLine]", 
+     RowBox[{"(*", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"G", ",", "K"}], "}"}], "\[DoubleRightTee]", 
+        RowBox[{"SMSHookeToBulk", "[", 
+         RowBox[{"Ee", ",", "\[Nu]"}], "]"}]}], ";"}], "*)"}], 
+     "\[IndentingNewLine]", 
      RowBox[{"\[CapitalPsi]el", "\[DoubleRightTee]", 
       RowBox[{
        RowBox[{
         FractionBox["1", "2"], " ", 
         RowBox[{"(", 
-         RowBox[{"K", "-", 
+         RowBox[{"Kdr", "-", 
           RowBox[{
            FractionBox["2", "3"], "G"}]}], ")"}], 
         SuperscriptBox[
@@ -1201,12 +1209,11 @@ Cell[BoxData[
      RowBox[{"AppendTo", "[", 
       RowBox[{"SMSDResidualConstants", ",", "bp"}], "]"}], ";", 
      "\[IndentingNewLine]", 
-     RowBox[{"kp", "\[RightTee]", "mp"}], ";", "\[IndentingNewLine]", 
      RowBox[{"bGrad", "\[RightTee]", 
       RowBox[{"kp", " ", "Gradp"}]}], ";", "\[IndentingNewLine]", 
      RowBox[{"AppendTo", "[", 
       RowBox[{"SMSDResidualConstants", ",", "bGrad"}], "]"}], ";", 
-     "\[IndentingNewLine]", 
+     "\[IndentingNewLine]", "\[IndentingNewLine]", 
      RowBox[{"AppendTo", "[", 
       RowBox[{"SMSDResidualConstants", ",", "bvol"}], "]"}], ";", 
      "\[IndentingNewLine]", "\[IndentingNewLine]", 
@@ -1226,16 +1233,14 @@ Cell[BoxData[
       "\[CapitalPsi]el", "+", "\[CapitalPsi]pm", "+", "\[CapitalPsi]pf"}]}], 
      ";"}], " ", "\[IndentingNewLine]", "\[IndentingNewLine]", ")"}]}], 
   ";"}]], "Input",
- CellChangeTimes->{{3.849660655364633*^9, 3.849660676815508*^9}, {
-  3.84966071754423*^9, 3.8496608056528482`*^9}, {3.849661149998238*^9, 
-  3.849661151950211*^9}, {3.849661212138461*^9, 3.849661247849864*^9}, {
-  3.8496612915734167`*^9, 3.849661294740632*^9}, {3.849661329018031*^9, 
-  3.84966146385576*^9}, {3.849661507776431*^9, 3.849661533109662*^9}, {
-  3.849661640585348*^9, 3.849661665763916*^9}, {3.849661717695912*^9, 
-  3.849661750886407*^9}, {3.849661858142989*^9, 3.849661921846477*^9}, {
-  3.849661970087246*^9, 3.849662133620302*^9}, {3.849662232870955*^9, 
-  3.849662306266975*^9}, {3.849662342246961*^9, 3.849662419355455*^9}, {
-  3.849662467078668*^9, 3.8496625315888357`*^9}},
+ CellChangeTimes->CompressedData["
+1:eJxTTMoPSmViYGAQBWIQLbz6tezSdW8cl0jMUgDRoVkbVUG00pMtBiB64sf9
+0SBaMeMfmHbLa0kG0WJGv9NBdF5kUS6Idtp8HUxvm6xQBKKTk343gei2GxUd
+IDqqaXE3iNbZLTQTRDMUWcwB0S9dti0C0UWxd5aB6LjJLltAdLiY9R4QveOU
+0yEQ3XJz8zUQffee9GMQzd/t8QZESz8//gFEP47P/gWii1uSGJYB6X3XizhA
+tMo0Y/M9QPqi90wwfav3XDuIPjQzvgNEsx4+NAlETzA6DaZvmGkuBNHzfBcu
+AtFPe+RWgOgq9ngwveXsDee9QNrquKEbiP4TcdMLRO+z1goE0QB41cCw
+  "],
  CellLabel->"In[5]:=",ExpressionUUID->"59032f96-a635-430d-aa68-430993d0d6f8"]
 }, Open  ]],
 
@@ -1246,6 +1251,8 @@ Cell["Tangent and residual", "Subsubsection",
   3.84966071754423*^9, 
   3.849660845252419*^9}},ExpressionUUID->"78708dbb-7acd-4e48-b79f-\
 83efa049d65b"],
+
+Cell[CellGroupData[{
 
 Cell[BoxData[{
  RowBox[{
@@ -1259,10 +1266,206 @@ Cell[BoxData[{
   RowBox[{"ElementDefinitions", "[", "Ig", "]"}], ";"}]}], "Input",
  CellChangeTimes->{{3.849660655364633*^9, 3.849660676815508*^9}, {
   3.84966071754423*^9, 3.849660838007406*^9}, {3.849660868446574*^9, 
-  3.849660871883234*^9}},ExpressionUUID->"d37b2e31-fd10-4da2-aefd-\
-e352359b9ce4"],
+  3.849660871883234*^9}},
+ CellLabel->"In[6]:=",ExpressionUUID->"d37b2e31-fd10-4da2-aefd-e352359b9ce4"],
 
-Cell[CellGroupData[{
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+   StyleBox["\<\"Expression contains part/parts that can not be numerically \
+evaluated.\"\>",
+    StripOnInput->False,
+    LineIndent->0,
+    LineColor->RGBColor[0.85098, 0.235294, 0.235294],
+    FrontFaceColor->RGBColor[0.85098, 0.235294, 0.235294],
+    BackFaceColor->RGBColor[0.85098, 0.235294, 0.235294],
+    GraphicsColor->RGBColor[0.85098, 0.235294, 0.235294],
+    FontSize->10,
+    FontWeight->Bold,
+    FontColor->RGBColor[0.85098, 0.235294, 0.235294]], 
+   "\[InvisibleSpace]", "\<\"\\n\"\>", 
+   "\[InvisibleSpace]", "\<\"User subroutine: SKR\"\>", "\[InvisibleSpace]", 
+   StyleBox["\<\" Description: \"\>",
+    StripOnInput->False,
+    FontWeight->Bold], "\[InvisibleSpace]", 
+   TemplateBox[{
+    "  ", "\"  \"", "\"Error in user input parameters for function:\"", 
+     "\"SMSR\"", "\"\\nInput parameter:\"", 
+     RowBox[{
+       RowBox[{"-", "bvol"}], " ", 
+       InterpretationBox[
+        ButtonBox[
+         StyleBox[
+         "\"\[Alpha]\"", FontColor -> GrayLevel[0], StripOnInput -> False], 
+         ButtonFunction :> AceGen`SMSButtonFunction["", {9, 10, 1}], 
+         ImageSize -> All, ImageMargins -> None, Evaluator -> Automatic, 
+         Appearance -> "Palette", FrameMargins -> None, Method -> 
+         "Preemptive"], 
+        AceGen`$V[10, 1]], " ", 
+       RowBox[{"(", 
+         RowBox[{
+           InterpretationBox[
+            ButtonBox[
+             StyleBox[
+              SubscriptBox["\"\[Epsilon]\"", 
+               TemplateBox[{
+                 TemplateBox[{"1"}, "RowDefault"], "\"\[VerticalLine]\"", 
+                 "1"}, "RowDefault"]], FontColor -> GrayLevel[0], 
+              StripOnInput -> False], ButtonFunction :> 
+             AceGen`SMSButtonFunction["", {9, 89, 1}], ImageSize -> All, 
+             ImageMargins -> None, Evaluator -> Automatic, Appearance -> 
+             "Palette", FrameMargins -> None, Method -> "Preemptive"], 
+            AceGen`$V[89, 1]], "+", 
+           InterpretationBox[
+            ButtonBox[
+             StyleBox[
+              SubscriptBox["\"\[Epsilon]\"", 
+               TemplateBox[{
+                 TemplateBox[{"2"}, "RowDefault"], "\"\[VerticalLine]\"", 
+                 "2"}, "RowDefault"]], FontColor -> GrayLevel[0], 
+              StripOnInput -> False], ButtonFunction :> 
+             AceGen`SMSButtonFunction["", {9, 91, 1}], ImageSize -> All, 
+             ImageMargins -> None, Evaluator -> Automatic, Appearance -> 
+             "Palette", FrameMargins -> None, Method -> "Preemptive"], 
+            AceGen`$V[91, 1]]}], ")"}]}], 
+     "\"\\nParts that can not be evaluated:\"", 
+     RowBox[{"{", "bvol", "}"}]},
+    "RowWithSeparators"], "\[InvisibleSpace]", 
+   StyleBox["\<\"\\nEvents: \"\>",
+    StripOnInput->False,
+    FontWeight->Bold], "\[InvisibleSpace]", "0", 
+   "\[InvisibleSpace]", "\<\"\\n\"\>", "\[InvisibleSpace]", 
+   StyleBox["\<\"Version: \"\>",
+    StripOnInput->False,
+    FontWeight->Bold], 
+   "\[InvisibleSpace]", "\<\"7.303 MacOSX (3 Aug 21) (MMA 12.3)\"\>", 
+   "\[InvisibleSpace]", 
+   StyleBox["\<\" Module: \"\>",
+    StripOnInput->False,
+    FontWeight->Bold], "\[InvisibleSpace]", "\<\"SMSR\"\>", 
+   "\[InvisibleSpace]", 
+   StyleBox["\<\"\\nSee also: \"\>",
+    StripOnInput->False,
+    FontWeight->Bold], "\[InvisibleSpace]", 
+   TagBox[
+    ButtonBox[
+     RowBox[{"Symbolic", "-", 
+      RowBox[{"Numeric", " ", "Interface"}]}],
+     BaseStyle->{"Link", Medium},
+     ButtonFunction:>Documentation`HelpLookup[
+      "paclet:AceGen/tutorial/Symbolic-Numeric Interface", \
+$CellContext`CompletionFunction -> (
+        SetOptions[#, DockedCells -> 
+         AceCommon`SMCSetUserInterface["DockedCells"]]& )],
+     Evaluator->Automatic,
+     Method->"Preemptive"],
+    DisplayForm], "\[InvisibleSpace]", "\<\"  \"\>", "\[InvisibleSpace]", 
+   TagBox[
+    ButtonBox[
+     RowBox[{"AceGen", " ", "Troubleshooting"}],
+     BaseStyle->{"Link", Medium},
+     ButtonFunction:>Documentation`HelpLookup[
+      "paclet:AceGen/tutorial/AceGen Troubleshooting", \
+$CellContext`CompletionFunction -> (
+        SetOptions[#, DockedCells -> 
+         AceCommon`SMCSetUserInterface["DockedCells"]]& )],
+     Evaluator->Automatic,
+     Method->"Preemptive"],
+    DisplayForm], "\[InvisibleSpace]", "\<\"  \"\>", "\[InvisibleSpace]", 
+   ButtonBox[
+    StyleBox["\<\"Continue\"\>",
+     StripOnInput->False,
+     FontSize->Medium],
+    Appearance->Automatic,
+    ButtonFunction:>(Part[AceCommon`SMCSession, 6] = False; 
+     AceCommon`SMCAction = Hold[]; If[
+       And[AceCommon`SMCAceGenLoaded, 
+        Or[Part[AceGen`SMSSession, 1] === "Derivation", 
+         And[
+          MatchQ[
+           Part[AceGen`SMSSession, 1], 
+           Alternatives["Write", "Reload"]], Part[AceGen`SMSSession, 6] === 
+          "Debug"]]], AceGen`SMSShowEnabled = True; AceGen`SMSSetVFormat[
+         Part[AceGen`SMSEditMode, 3]]; Null]; Null),
+    Evaluator->Automatic,
+    Method->"Preemptive"]}],
+  SequenceForm[
+   Style["Expression contains part/parts that can not be numerically \
+evaluated.", 
+    RGBColor[0.85098, 0.235294, 0.235294], Bold, 10, LineIndent -> 0], "\n", 
+   "User subroutine: SKR", 
+   Style[" Description: ", Bold], 
+   Row[{"Error in user input parameters for function:", "SMSR", 
+     "\nInput parameter:", -$CellContext`bvol Interpretation[
+       Button[
+        Style["\[Alpha]", FontColor -> GrayLevel[0]], 
+        AceGen`SMSButtonFunction["", {9, 10, 1}], ImageSize -> All, 
+        ImageMargins -> None, Evaluator -> Automatic, Appearance -> "Palette",
+         FrameMargins -> None], 
+       AceGen`$V[10, 1]] (Interpretation[
+        Button[
+         Style[
+          Subscript["\[Epsilon]", 
+           Row[{
+             Row[{1}], "\[VerticalLine]", 1}]], FontColor -> GrayLevel[0]], 
+         AceGen`SMSButtonFunction["", {9, 89, 1}], ImageSize -> All, 
+         ImageMargins -> None, Evaluator -> Automatic, Appearance -> 
+         "Palette", FrameMargins -> None], 
+        AceGen`$V[89, 1]] + Interpretation[
+        Button[
+         Style[
+          Subscript["\[Epsilon]", 
+           Row[{
+             Row[{2}], "\[VerticalLine]", 2}]], FontColor -> GrayLevel[0]], 
+         AceGen`SMSButtonFunction["", {9, 91, 1}], ImageSize -> All, 
+         ImageMargins -> None, Evaluator -> Automatic, Appearance -> 
+         "Palette", FrameMargins -> None], 
+        AceGen`$V[91, 1]]), 
+     "\nParts that can not be evaluated:", {$CellContext`bvol}}, "  "], 
+   Style["\nEvents: ", Bold], 0, "\n", 
+   Style["Version: ", Bold], "7.303 MacOSX (3 Aug 21) (MMA 12.3)", 
+   Style[" Module: ", Bold], "SMSR", 
+   Style["\nSee also: ", Bold], 
+   DisplayForm[
+    ButtonBox[
+    "Symbolic-Numeric Interface", BaseStyle -> {"Link", Medium}, 
+     ButtonFunction :> 
+     Documentation`HelpLookup[
+      "paclet:AceGen/tutorial/Symbolic-Numeric Interface", \
+$CellContext`CompletionFunction -> (
+        SetOptions[#, DockedCells -> 
+         AceCommon`SMCSetUserInterface["DockedCells"]]& )], Evaluator -> 
+     Automatic, Method -> "Preemptive"]], "  ", 
+   DisplayForm[
+    ButtonBox[
+    "AceGen Troubleshooting", BaseStyle -> {"Link", Medium}, ButtonFunction :> 
+     Documentation`HelpLookup[
+      "paclet:AceGen/tutorial/AceGen Troubleshooting", \
+$CellContext`CompletionFunction -> (
+        SetOptions[#, DockedCells -> 
+         AceCommon`SMCSetUserInterface["DockedCells"]]& )], Evaluator -> 
+     Automatic, Method -> "Preemptive"]], "  ", 
+   Button[
+    Style["Continue", Medium], Part[AceCommon`SMCSession, 6] = False; 
+    AceCommon`SMCAction = Hold[]; If[
+      And[AceCommon`SMCAceGenLoaded, 
+       Or[Part[AceGen`SMSSession, 1] === "Derivation", 
+        And[
+         MatchQ[
+          Part[AceGen`SMSSession, 1], 
+          Alternatives["Write", "Reload"]], Part[AceGen`SMSSession, 6] === 
+         "Debug"]]], AceGen`SMSShowEnabled = True; AceGen`SMSSetVFormat[
+        Part[AceGen`SMSEditMode, 3]]; Null]; Null]],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.8497102728403463`*^9},
+ CellLabel->
+  "During evaluation of \
+In[6]:=",ExpressionUUID->"44c2b534-4a7b-4dde-9584-4325422fe62c"],
+
+Cell[BoxData["$Aborted"], "Output",
+ CellChangeTimes->{3.8497102729711447`*^9},
+ CellLabel->"Out[9]=",ExpressionUUID->"d37f7288-c289-40fe-bcdb-f33e05d7c1cd"]
+}, Open  ]],
 
 Cell[BoxData[{
  RowBox[{
@@ -1312,140 +1515,7 @@ Cell[BoxData[{
  CellChangeTimes->{{3.849660655364633*^9, 3.849660676815508*^9}, {
   3.84966071754423*^9, 3.849660838007406*^9}, {3.849660868446574*^9, 
   3.849660881308278*^9}},
- CellLabel->"In[6]:=",ExpressionUUID->"d0a0f6e5-3762-4468-97ed-c20e5cb42653"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{
-   StyleBox["\<\"Start a new module definition with the SMSModule or \
-SMSStandardModule command.\"\>",
-    StripOnInput->False,
-    LineIndent->0,
-    LineColor->RGBColor[0.85098, 0.235294, 0.235294],
-    FrontFaceColor->RGBColor[0.85098, 0.235294, 0.235294],
-    BackFaceColor->RGBColor[0.85098, 0.235294, 0.235294],
-    GraphicsColor->RGBColor[0.85098, 0.235294, 0.235294],
-    FontSize->10,
-    FontWeight->Bold,
-    FontColor->RGBColor[0.85098, 0.235294, 0.235294]], 
-   "\[InvisibleSpace]", "\<\"\\n\"\>", "\[InvisibleSpace]", 
-   StyleBox["\<\"Version: \"\>",
-    StripOnInput->False,
-    FontWeight->Bold], 
-   "\[InvisibleSpace]", "\<\"7.303 MacOSX (3 Aug 21) (MMA 12.3)\"\>", 
-   "\[InvisibleSpace]", 
-   StyleBox["\<\" Module: \"\>",
-    StripOnInput->False,
-    FontWeight->Bold], "\[InvisibleSpace]", "\<\"SMSCheckFormula\"\>", 
-   "\[InvisibleSpace]", 
-   StyleBox["\<\"\\nSee also: \"\>",
-    StripOnInput->False,
-    FontWeight->Bold], "\[InvisibleSpace]", 
-   TagBox[
-    ButtonBox["SMSModule",
-     BaseStyle->{"Link", Medium},
-     ButtonFunction:>Documentation`HelpLookup[
-      "paclet:AceGen/tutorial/Standard AceGen Procedure", \
-$CellContext`CompletionFunction -> ((
-        SetOptions[#, DockedCells -> 
-          AceCommon`SMCSetUserInterface["DockedCells"]]; NotebookFind[#, 
-          Apply[Sequence, {"SMSModule", All, CellTags}]])& )],
-     Evaluator->Automatic,
-     Method->"Preemptive"],
-    DisplayForm], "\[InvisibleSpace]", "\<\"  \"\>", "\[InvisibleSpace]", 
-   TagBox[
-    ButtonBox[
-     RowBox[{"AceGen", " ", "Troubleshooting"}],
-     BaseStyle->{"Link", Medium},
-     ButtonFunction:>Documentation`HelpLookup[
-      "paclet:AceGen/tutorial/AceGen Troubleshooting", \
-$CellContext`CompletionFunction -> (
-        SetOptions[#, DockedCells -> 
-         AceCommon`SMCSetUserInterface["DockedCells"]]& )],
-     Evaluator->Automatic,
-     Method->"Preemptive"],
-    DisplayForm], "\[InvisibleSpace]", "\<\"  \"\>", "\[InvisibleSpace]", 
-   ButtonBox[
-    StyleBox["\<\"Continue\"\>",
-     StripOnInput->False,
-     FontSize->Medium],
-    Appearance->Automatic,
-    ButtonFunction:>(Part[AceCommon`SMCSession, 6] = False; 
-     AceCommon`SMCAction = Hold[]; If[
-       And[AceCommon`SMCAceGenLoaded, 
-        Or[Part[AceGen`SMSSession, 1] === "Derivation", 
-         And[
-          MatchQ[
-           Part[AceGen`SMSSession, 1], 
-           Alternatives["Write", "Reload"]], Part[AceGen`SMSSession, 6] === 
-          "Debug"]]], AceGen`SMSShowEnabled = True; AceGen`SMSSetVFormat[
-         Part[AceGen`SMSEditMode, 3]]; Null]; Null),
-    Evaluator->Automatic,
-    Method->"Preemptive"]}],
-  SequenceForm[
-   Style["Start a new module definition with the SMSModule or \
-SMSStandardModule command.", 
-    RGBColor[0.85098, 0.235294, 0.235294], Bold, 10, LineIndent -> 0], "\n", 
-   Style["Version: ", Bold], "7.303 MacOSX (3 Aug 21) (MMA 12.3)", 
-   Style[" Module: ", Bold], "SMSCheckFormula", 
-   Style["\nSee also: ", Bold], 
-   DisplayForm[
-    ButtonBox[
-    "SMSModule", BaseStyle -> {"Link", Medium}, ButtonFunction :> 
-     Documentation`HelpLookup[
-      "paclet:AceGen/tutorial/Standard AceGen Procedure", \
-$CellContext`CompletionFunction -> ((
-        SetOptions[#, DockedCells -> 
-          AceCommon`SMCSetUserInterface["DockedCells"]]; NotebookFind[#, 
-          Apply[Sequence, {"SMSModule", All, CellTags}]])& )], Evaluator -> 
-     Automatic, Method -> "Preemptive"]], "  ", 
-   DisplayForm[
-    ButtonBox[
-    "AceGen Troubleshooting", BaseStyle -> {"Link", Medium}, ButtonFunction :> 
-     Documentation`HelpLookup[
-      "paclet:AceGen/tutorial/AceGen Troubleshooting", \
-$CellContext`CompletionFunction -> (
-        SetOptions[#, DockedCells -> 
-         AceCommon`SMCSetUserInterface["DockedCells"]]& )], Evaluator -> 
-     Automatic, Method -> "Preemptive"]], "  ", 
-   Button[
-    Style["Continue", Medium], Part[AceCommon`SMCSession, 6] = False; 
-    AceCommon`SMCAction = Hold[]; If[
-      And[AceCommon`SMCAceGenLoaded, 
-       Or[Part[AceGen`SMSSession, 1] === "Derivation", 
-        And[
-         MatchQ[
-          Part[AceGen`SMSSession, 1], 
-          Alternatives["Write", "Reload"]], Part[AceGen`SMSSession, 6] === 
-         "Debug"]]], AceGen`SMSShowEnabled = True; AceGen`SMSSetVFormat[
-        Part[AceGen`SMSEditMode, 3]]; Null]; Null]],
-  Editable->False]], "Print",
- CellChangeTimes->{3.849662600538665*^9},
- CellLabel->
-  "During evaluation of \
-In[6]:=",ExpressionUUID->"447d563d-b781-480e-a8a7-1ef9a2a82092"],
-
-Cell[BoxData["$Aborted"], "Output",
- CellChangeTimes->{3.8496626007028303`*^9},
- CellLabel->"Out[6]=",ExpressionUUID->"7ee9f135-f40c-4e62-ab6e-57e028498475"],
-
-Cell[BoxData[
- TemplateBox[{
-  "Flatten", "normal", 
-   "\"Nonatomic expression expected at position \
-\\!\\(\\*RowBox[{\\\"1\\\"}]\\) in \\!\\(\\*RowBox[{\\\"Flatten\\\", \
-\\\"[\\\", \\\"SMSDResidualConstants\\\", \\\"]\\\"}]\\).\"", 2, 7, 1, 
-   27991914626320031567, "Local"},
-  "MessageTemplate"]], "Message", "MSG",
- CellChangeTimes->{3.84966260073482*^9},
- CellLabel->
-  "During evaluation of \
-In[6]:=",ExpressionUUID->"c90495ec-7bde-41ac-8b19-ad25307b5e9f"],
-
-Cell[BoxData["$Aborted"], "Output",
- CellChangeTimes->{3.849662600763467*^9},
- CellLabel->"Out[7]=",ExpressionUUID->"6e8dd521-9cc6-41c7-88e0-016a2abeb356"]
-}, Open  ]]
+ CellLabel->"In[10]:=",ExpressionUUID->"d0a0f6e5-3762-4468-97ed-c20e5cb42653"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -12211,8 +12281,8 @@ Cell[BoxData[
 }, Closed]]
 }, Closed]]
 },
-WindowSize->{1394, 1227},
-WindowMargins->{{Automatic, -104}, {964, Automatic}},
+WindowSize->{1238, 805},
+WindowMargins->{{Automatic, -115}, {Automatic, 0}},
 Magnification:>1.5 Inherited,
 FrontEndVersion->"12.3 for Mac OS X x86 (64-bit) (July 9, 2021)",
 StyleDefinitions->FrontEnd`FileName[{"AceStyles"}, "AceStyleWork.nb", 
@@ -12241,7 +12311,7 @@ Cell[2754, 75, 5780, 112, 862, "Input",ExpressionUUID->"62ce1323-597e-475f-9efa-
 }, Closed]],
 Cell[CellGroupData[{
 Cell[8571, 192, 323, 5, 46, "Subsection",ExpressionUUID->"e7c17de1-ba56-4034-a8ad-9d5d70f488c0"],
-Cell[8897, 199, 15681, 323, 2188, "Input",ExpressionUUID->"2c8ee541-ab04-43fa-85c2-c1bf5989abe5"]
+Cell[8897, 199, 15681, 323, 2150, "Input",ExpressionUUID->"2c8ee541-ab04-43fa-85c2-c1bf5989abe5"]
 }, Closed]],
 Cell[CellGroupData[{
 Cell[24615, 527, 322, 5, 46, "Subsection",ExpressionUUID->"7abbabfd-b825-417c-8c48-2d8f257940ba"],
@@ -12262,110 +12332,108 @@ Cell[37888, 793, 228, 4, 55, "Subsection",ExpressionUUID->"4f570a7c-9f1f-49ed-85
 Cell[CellGroupData[{
 Cell[38141, 801, 365, 6, 49, "Subsubsection",ExpressionUUID->"483ed914-c7af-436e-84f9-fde8204025a2",
  CellGroupingRules->{"GroupTogetherGrouping", 10000.}],
-Cell[38509, 809, 4153, 93, 881, "Input",ExpressionUUID->"5e2d9a04-8387-4439-8571-140f1b57ce2f",
+Cell[38509, 809, 4395, 96, 922, "Input",ExpressionUUID->"5e2d9a04-8387-4439-8571-140f1b57ce2f",
  CellGroupingRules->{"GroupTogetherGrouping", 10000.}]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[42699, 907, 220, 4, 49, "Subsubsection",ExpressionUUID->"85f732f8-b100-4534-9e07-6646804412ea"],
-Cell[42922, 913, 14355, 325, 2553, "Input",ExpressionUUID->"59032f96-a635-430d-aa68-430993d0d6f8"]
+Cell[42941, 910, 220, 4, 49, "Subsubsection",ExpressionUUID->"85f732f8-b100-4534-9e07-6646804412ea"],
+Cell[43164, 916, 14191, 327, 2553, "Input",ExpressionUUID->"59032f96-a635-430d-aa68-430993d0d6f8"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[57314, 1243, 219, 4, 49, "Subsubsection",ExpressionUUID->"78708dbb-7acd-4e48-b79f-83efa049d65b"],
-Cell[57536, 1249, 575, 13, 137, "Input",ExpressionUUID->"d37b2e31-fd10-4da2-aefd-e352359b9ce4"],
+Cell[57392, 1248, 219, 4, 49, "Subsubsection",ExpressionUUID->"78708dbb-7acd-4e48-b79f-83efa049d65b"],
 Cell[CellGroupData[{
-Cell[58136, 1266, 1748, 48, 292, "Input",ExpressionUUID->"d0a0f6e5-3762-4468-97ed-c20e5cb42653"],
-Cell[59887, 1316, 4530, 109, 107, "Print",ExpressionUUID->"447d563d-b781-480e-a8a7-1ef9a2a82092"],
-Cell[64420, 1427, 157, 2, 43, "Output",ExpressionUUID->"7ee9f135-f40c-4e62-ab6e-57e028498475"],
-Cell[64580, 1431, 466, 11, 41, "Message",ExpressionUUID->"c90495ec-7bde-41ac-8b19-ad25307b5e9f"],
-Cell[65049, 1444, 155, 2, 73, "Output",ExpressionUUID->"6e8dd521-9cc6-41c7-88e0-016a2abeb356"]
-}, Open  ]]
+Cell[57636, 1256, 596, 13, 137, "Input",ExpressionUUID->"d37b2e31-fd10-4da2-aefd-e352359b9ce4"],
+Cell[58235, 1271, 8107, 191, 250, "Print",ExpressionUUID->"44c2b534-4a7b-4dde-9584-4325422fe62c"],
+Cell[66345, 1464, 157, 2, 43, "Output",ExpressionUUID->"d37f7288-c289-40fe-bcdb-f33e05d7c1cd"]
+}, Open  ]],
+Cell[66517, 1469, 1749, 48, 347, "Input",ExpressionUUID->"d0a0f6e5-3762-4468-97ed-c20e5cb42653"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[65253, 1452, 261, 4, 49, "Subsubsection",ExpressionUUID->"ae596614-e6e4-46e7-bbe1-8037ca3b1e40"],
-Cell[65517, 1458, 3404, 81, 509, "Input",ExpressionUUID->"145a730c-54bf-43a7-a492-cbaf36be5ca5"]
+Cell[68303, 1522, 261, 4, 49, "Subsubsection",ExpressionUUID->"ae596614-e6e4-46e7-bbe1-8037ca3b1e40"],
+Cell[68567, 1528, 3404, 81, 509, "Input",ExpressionUUID->"145a730c-54bf-43a7-a492-cbaf36be5ca5"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[68958, 1544, 260, 4, 49, "Subsubsection",ExpressionUUID->"c9e43e59-a85b-4c94-aecf-19e622c13f4b"],
-Cell[69221, 1550, 278, 5, 42, "Input",ExpressionUUID->"9d602396-d025-43cb-a7e0-96b33630111e"]
+Cell[72008, 1614, 260, 4, 49, "Subsubsection",ExpressionUUID->"c9e43e59-a85b-4c94-aecf-19e622c13f4b"],
+Cell[72271, 1620, 278, 5, 42, "Input",ExpressionUUID->"9d602396-d025-43cb-a7e0-96b33630111e"]
 }, Closed]]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[69572, 1563, 28355, 386, 122, "Title",ExpressionUUID->"4e58b1b5-a865-4d67-8d0e-ed737f327160"],
+Cell[72622, 1633, 28355, 386, 122, "Title",ExpressionUUID->"4e58b1b5-a865-4d67-8d0e-ed737f327160"],
 Cell[CellGroupData[{
-Cell[97952, 1953, 402, 7, 93, "Section",ExpressionUUID->"92b1aaed-0354-4b66-96ba-769c6659348c"],
+Cell[101002, 2023, 402, 7, 93, "Section",ExpressionUUID->"92b1aaed-0354-4b66-96ba-769c6659348c"],
 Cell[CellGroupData[{
-Cell[98379, 1964, 197, 3, 55, "Subsection",ExpressionUUID->"b4e29f52-178f-49c6-8019-f1a02e365ee0"],
-Cell[98579, 1969, 14419, 321, 1060, "Input",ExpressionUUID->"15e8eeca-a597-4401-9d83-db15a4af43d2"]
+Cell[101429, 2034, 197, 3, 55, "Subsection",ExpressionUUID->"b4e29f52-178f-49c6-8019-f1a02e365ee0"],
+Cell[101629, 2039, 14419, 321, 1060, "Input",ExpressionUUID->"15e8eeca-a597-4401-9d83-db15a4af43d2"]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[113035, 2295, 373, 7, 55, "Subsection",ExpressionUUID->"723f2c7b-af62-47e4-aba7-a447cfbddb00"],
+Cell[116085, 2365, 373, 7, 55, "Subsection",ExpressionUUID->"723f2c7b-af62-47e4-aba7-a447cfbddb00"],
 Cell[CellGroupData[{
-Cell[113433, 2306, 1559, 38, 138, "Input",ExpressionUUID->"c37d313a-2c20-4f5e-b376-3ef8d50b07cc"],
-Cell[114995, 2346, 2497, 61, 379, "Output",ExpressionUUID->"260acc5f-c0fc-432b-ae69-6a824d5fcfbd"]
+Cell[116483, 2376, 1559, 38, 138, "Input",ExpressionUUID->"c37d313a-2c20-4f5e-b376-3ef8d50b07cc"],
+Cell[118045, 2416, 2497, 61, 379, "Output",ExpressionUUID->"260acc5f-c0fc-432b-ae69-6a824d5fcfbd"]
 }, Open  ]],
-Cell[117507, 2410, 5894, 160, 736, "Input",ExpressionUUID->"81561251-735a-4424-8a78-ff5b976b3ccf"],
+Cell[120557, 2480, 5894, 160, 736, "Input",ExpressionUUID->"81561251-735a-4424-8a78-ff5b976b3ccf"],
 Cell[CellGroupData[{
-Cell[123426, 2574, 279, 6, 42, "Input",ExpressionUUID->"eb9fcc09-724d-4529-b383-c2cd71cb0c1f"],
-Cell[123708, 2582, 3297, 63, 561, "Output",ExpressionUUID->"a940148b-5843-4e3a-8686-44fa15b01ce1"]
+Cell[126476, 2644, 279, 6, 42, "Input",ExpressionUUID->"eb9fcc09-724d-4529-b383-c2cd71cb0c1f"],
+Cell[126758, 2652, 3297, 63, 561, "Output",ExpressionUUID->"a940148b-5843-4e3a-8686-44fa15b01ce1"]
 }, Open  ]]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[127054, 2651, 157, 3, 55, "Subsection",ExpressionUUID->"75b0b064-a2a2-41b3-92dc-724da49bebfc"],
+Cell[130104, 2721, 157, 3, 55, "Subsection",ExpressionUUID->"75b0b064-a2a2-41b3-92dc-724da49bebfc"],
 Cell[CellGroupData[{
-Cell[127236, 2658, 308, 6, 42, "Input",ExpressionUUID->"73347775-a11d-4d83-8f17-9b0828719558"],
-Cell[127547, 2666, 20182, 374, 471, "Output",ExpressionUUID->"430dd7cc-7273-4ccc-8534-6cbccb259a45"]
+Cell[130286, 2728, 308, 6, 42, "Input",ExpressionUUID->"73347775-a11d-4d83-8f17-9b0828719558"],
+Cell[130597, 2736, 20182, 374, 471, "Output",ExpressionUUID->"430dd7cc-7273-4ccc-8534-6cbccb259a45"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[147766, 3045, 729, 15, 75, "Input",ExpressionUUID->"a17d7a64-4197-4b5a-97ad-bb1953f0fe3d"],
-Cell[148498, 3062, 91564, 1666, 385, "Output",ExpressionUUID->"6f57d4ec-4f17-48d7-a6e7-784463e175f2"]
+Cell[150816, 3115, 729, 15, 75, "Input",ExpressionUUID->"a17d7a64-4197-4b5a-97ad-bb1953f0fe3d"],
+Cell[151548, 3132, 91564, 1666, 385, "Output",ExpressionUUID->"6f57d4ec-4f17-48d7-a6e7-784463e175f2"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[240099, 4733, 957, 20, 75, "Input",ExpressionUUID->"182a9880-abef-4abc-aa87-a197f0c54bb7"],
-Cell[241059, 4755, 2987, 67, 385, "Output",ExpressionUUID->"20219316-2be4-40f2-92dc-9acc8218a51c"]
+Cell[243149, 4803, 957, 20, 75, "Input",ExpressionUUID->"182a9880-abef-4abc-aa87-a197f0c54bb7"],
+Cell[244109, 4825, 2987, 67, 385, "Output",ExpressionUUID->"20219316-2be4-40f2-92dc-9acc8218a51c"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[244083, 4827, 1049, 23, 75, "Input",ExpressionUUID->"e148dbfd-27c9-468e-a6c3-c8e9f45e4a07"],
-Cell[245135, 4852, 17338, 354, 384, "Output",ExpressionUUID->"ab960a8a-e987-4f03-8e28-b762689818c4"]
+Cell[247133, 4897, 1049, 23, 75, "Input",ExpressionUUID->"e148dbfd-27c9-468e-a6c3-c8e9f45e4a07"],
+Cell[248185, 4922, 17338, 354, 384, "Output",ExpressionUUID->"ab960a8a-e987-4f03-8e28-b762689818c4"]
 }, Open  ]]
 }, Closed]]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[262534, 5213, 311, 5, 54, "Section",ExpressionUUID->"c55eecfa-1619-4aa3-9cf0-d33e36c6e32d"],
+Cell[265584, 5283, 311, 5, 54, "Section",ExpressionUUID->"c55eecfa-1619-4aa3-9cf0-d33e36c6e32d"],
 Cell[CellGroupData[{
-Cell[262870, 5222, 199, 3, 55, "Subsection",ExpressionUUID->"1d480d42-3806-44ab-b572-8d40cfbd8727"],
-Cell[263072, 5227, 7212, 171, 736, "Input",ExpressionUUID->"5b6f651c-8da7-4179-ada0-f46d71f761f9"]
+Cell[265920, 5292, 199, 3, 55, "Subsection",ExpressionUUID->"1d480d42-3806-44ab-b572-8d40cfbd8727"],
+Cell[266122, 5297, 7212, 171, 736, "Input",ExpressionUUID->"5b6f651c-8da7-4179-ada0-f46d71f761f9"]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[270321, 5403, 375, 7, 55, "Subsection",ExpressionUUID->"12679a2f-f030-4c48-906e-5aa143f37fab"],
+Cell[273371, 5473, 375, 7, 55, "Subsection",ExpressionUUID->"12679a2f-f030-4c48-906e-5aa143f37fab"],
 Cell[CellGroupData[{
-Cell[270721, 5414, 1360, 35, 138, "Input",ExpressionUUID->"787c2742-e741-4cf2-aa2a-6b7291300bd9"],
-Cell[272084, 5451, 2451, 60, 379, "Output",ExpressionUUID->"67450936-7eae-4eb3-b820-2cbfc4eb4ef8"]
+Cell[273771, 5484, 1360, 35, 138, "Input",ExpressionUUID->"787c2742-e741-4cf2-aa2a-6b7291300bd9"],
+Cell[275134, 5521, 2451, 60, 379, "Output",ExpressionUUID->"67450936-7eae-4eb3-b820-2cbfc4eb4ef8"]
 }, Open  ]],
-Cell[274550, 5514, 7579, 178, 736, "Input",ExpressionUUID->"07bd24ca-54ed-427c-88c9-dcf9764b0264"],
+Cell[277600, 5584, 7579, 178, 736, "Input",ExpressionUUID->"07bd24ca-54ed-427c-88c9-dcf9764b0264"],
 Cell[CellGroupData[{
-Cell[282154, 5696, 284, 7, 42, "Input",ExpressionUUID->"bf2d30b5-a1d0-4d77-a585-5d5cae5192f6"],
-Cell[282441, 5705, 2748, 56, 561, "Output",ExpressionUUID->"0e0c3234-d3f6-45e4-8d11-cba5b5eee13b"]
+Cell[285204, 5766, 284, 7, 42, "Input",ExpressionUUID->"bf2d30b5-a1d0-4d77-a585-5d5cae5192f6"],
+Cell[285491, 5775, 2748, 56, 561, "Output",ExpressionUUID->"0e0c3234-d3f6-45e4-8d11-cba5b5eee13b"]
 }, Open  ]]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[285238, 5767, 155, 3, 55, "Subsection",ExpressionUUID->"cbac8290-dd71-48ac-a865-15659e9c0f41"],
+Cell[288288, 5837, 155, 3, 55, "Subsection",ExpressionUUID->"cbac8290-dd71-48ac-a865-15659e9c0f41"],
 Cell[CellGroupData[{
-Cell[285418, 5774, 615, 14, 91, "Input",ExpressionUUID->"8c9b7fef-0a4f-4adc-bf10-95d0eeb720f9"],
-Cell[286036, 5790, 179557, 3584, 276, "Output",ExpressionUUID->"5bc7d0fd-b7a0-45b5-99d0-7ba300f28a0a"]
+Cell[288468, 5844, 615, 14, 91, "Input",ExpressionUUID->"8c9b7fef-0a4f-4adc-bf10-95d0eeb720f9"],
+Cell[289086, 5860, 179557, 3584, 276, "Output",ExpressionUUID->"5bc7d0fd-b7a0-45b5-99d0-7ba300f28a0a"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[465630, 9379, 613, 14, 91, "Input",ExpressionUUID->"38f2c086-a629-4bd9-9876-f903c708bae0"],
-Cell[466246, 9395, 142353, 2596, 276, "Output",ExpressionUUID->"d44eca45-6cdb-44ad-a8f4-c0af4becc0ca"]
+Cell[468680, 9449, 613, 14, 91, "Input",ExpressionUUID->"38f2c086-a629-4bd9-9876-f903c708bae0"],
+Cell[469296, 9465, 142353, 2596, 276, "Output",ExpressionUUID->"d44eca45-6cdb-44ad-a8f4-c0af4becc0ca"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[608636, 11996, 930, 20, 91, "Input",ExpressionUUID->"ec1c024f-1d16-4c62-94a8-7eb58f74be12"],
-Cell[609569, 12018, 3896, 84, 348, "Output",ExpressionUUID->"b2b10702-733c-4e5a-92f3-e328f089f093"]
+Cell[611686, 12066, 930, 20, 91, "Input",ExpressionUUID->"ec1c024f-1d16-4c62-94a8-7eb58f74be12"],
+Cell[612619, 12088, 3896, 84, 348, "Output",ExpressionUUID->"b2b10702-733c-4e5a-92f3-e328f089f093"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[613502, 12107, 881, 19, 42, "Input",ExpressionUUID->"e06d6140-608a-47e5-be24-c0733d1797dd"],
-Cell[614386, 12128, 3720, 79, 384, "Output",ExpressionUUID->"a5127872-9e4b-4ce2-bf0e-f13d7231de03"]
+Cell[616552, 12177, 881, 19, 42, "Input",ExpressionUUID->"e06d6140-608a-47e5-be24-c0733d1797dd"],
+Cell[617436, 12198, 3720, 79, 384, "Output",ExpressionUUID->"a5127872-9e4b-4ce2-bf0e-f13d7231de03"]
 }, Open  ]]
 }, Closed]]
 }, Closed]]
