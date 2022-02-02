@@ -1,0 +1,77 @@
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND THEMES
+%----------------------------------------------------------------------------------------
+\documentclass[aspectratio=169,xcolor=dvipsnames]{beamer}
+\usetheme{SimplePlus}
+\setbeamertemplate{footline}[frame number]{}
+
+\usepackage{hyperref}
+\usepackage{graphicx} % Allows including images
+\usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
+\usepackage{siunitx}
+\usepackage{import}
+\usepackage{amsmath}
+%\numberwithin{equation}{section}% numera eq come #section.#formula
+\usepackage{amsthm}
+\usepackage{stmaryrd}
+\usepackage{amssymb}
+\usepackage{wasysym}
+\usepackage{cancel}
+\usepackage{textcomp}
+\usepackage{subcaption}
+\definecolor{myred}{rgb}{0.545, 0.172, 0.031}
+%\usepackage{cleveref}
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+\title[short title]{Modelli numerici elasto-plastici} % The short title appears at the bottom of every slide, the full title is only on the title page
+\subtitle{Hardening isotropo e cinematico}
+
+\author[Pin-Yen] {Alessandro Mastrofini}
+
+\institute[NTU] % Your institution as it will appear on the bottom of every slide, may be shorthand to save space
+{
+Meccanica Computazionale dei Tessuti e Biomateriali \\
+Università degli Studi di Roma Tor Vergata% Your institution for the title page
+}
+\date{2022} % Date, can be changed to a custom date
+
+\graphicspath{{figures/}} %Setting the graphicspat%h
+\graphicspath{{figures/}} %Setting the graphicspath
+\makeatletter
+\providecommand*{\input@path}{}
+\edef\input@path{{figures/}{}\input@path}% prepend
+\makeatother
+%----------------------------------------------------------------------------------------
+%	PRESENTATION SLIDES
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\begin{frame}
+    % Print the title page as the first slide
+    \titlepage
+\end{frame}
+
+%------------------------------------------------
+\section{First Section}
+%------------------------------------------------
+
+\begin{frame}{Patch test}
+ 
+\end{frame}
+
+\begin{frame}{Crack plate}
+	
+\end{frame}
+
+\begin{frame}{Stress intensity factor}
+	
+\end{frame}
+
+\begin{frame}{Isotropic and kinematic hardening}
+	
+\end{frame}
+
+\end{document}
