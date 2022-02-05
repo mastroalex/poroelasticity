@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.10.7)  31 JAN 2022 16:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.10.7)  5 FEB 2022 20:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1123,13 +1123,99 @@ thkerncmss.
 ) [1
 
 {/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figures//poroelasticity.pd
+f): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<figures//poroelasticity.pdf, id=28, 597.50829pt x 845.0471pt>
+File: figures//poroelasticity.pdf Graphic file (type pdf)
+<use figures//poroelasticity.pdf>
+Package pdftex.def Info: figures//poroelasticity.pdf  used on input line 75.
+(pdftex.def)             Requested size: 144.00789pt x 203.66647pt.
+<figures//circularTest.pdf, id=29, 301.125pt x 304.13625pt>
+File: figures//circularTest.pdf Graphic file (type pdf)
+<use figures//circularTest.pdf>
+Package pdftex.def Info: figures//circularTest.pdf  used on input line 75.
+(pdftex.def)             Requested size: 106.9728pt x 108.04105pt.
+<figures//punchTest.pdf, id=30, 401.5pt x 134.5025pt>
+File: figures//punchTest.pdf Graphic file (type pdf)
+<use figures//punchTest.pdf>
+Package pdftex.def Info: figures//punchTest.pdf  used on input line 75.
+(pdftex.def)             Requested size: 120.34541pt x 40.31616pt.
 [2
 
-] [3
+ <./figures//poroelasticity.pdf> <./figures//circularTest.pdf
 
-] [4
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figures//circularTest.pdf)
+: PDF inclusion: multiple pdfs with page group included in a single page
+> <./figures//punchTest.pdf
 
-] [5
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figures//punchTest.pdf): P
+DF inclusion: multiple pdfs with page group included in a single page
+>]
+<figures//circle.pdf, id=94, 636.4126pt x 663.01602pt>
+File: figures//circle.pdf Graphic file (type pdf)
+<use figures//circle.pdf>
+Package pdftex.def Info: figures//circle.pdf  used on input line 106.
+(pdftex.def)             Requested size: 90.51817pt x 94.29866pt.
+<figures//lambda_chemoelastic.pdf, id=95, 361.35pt x 242.9075pt>
+File: figures//lambda_chemoelastic.pdf Graphic file (type pdf)
+<use figures//lambda_chemoelastic.pdf>
+Package pdftex.def Info: figures//lambda_chemoelastic.pdf  used on input line 1
+06.
+(pdftex.def)             Requested size: 123.43443pt x 82.97292pt.
+<figures//chemoelastic_deformed.pdf, id=96, 301.125pt x 246.9225pt>
+File: figures//chemoelastic_deformed.pdf Graphic file (type pdf)
+<use figures//chemoelastic_deformed.pdf>
+Package pdftex.def Info: figures//chemoelastic_deformed.pdf  used on input line
+ 106.
+(pdftex.def)             Requested size: 123.43443pt x 101.21626pt.
+<figures//displacement_chemo.pdf, id=97, 361.35pt x 246.9225pt>
+File: figures//displacement_chemo.pdf Graphic file (type pdf)
+<use figures//displacement_chemo.pdf>
+Package pdftex.def Info: figures//displacement_chemo.pdf  used on input line 10
+6.
+(pdftex.def)             Requested size: 123.43443pt x 84.34438pt.
+<figures//conc_1.pdf, id=98, 361.35pt x 245.91875pt>
+File: figures//conc_1.pdf Graphic file (type pdf)
+<use figures//conc_1.pdf>
+Package pdftex.def Info: figures//conc_1.pdf  used on input line 106.
+(pdftex.def)             Requested size: 123.43443pt x 84.00151pt.
+<figures//conc.pdf, id=99, 361.35pt x 202.7575pt>
+File: figures//conc.pdf Graphic file (type pdf)
+<use figures//conc.pdf>
+Package pdftex.def Info: figures//conc.pdf  used on input line 106.
+(pdftex.def)             Requested size: 123.43443pt x 69.25839pt.
+ [3
+
+ <./figures//circle.pdf> <./figures//lambda_chemoelastic.pdf> <./figures//chemo
+elastic_deformed.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figures//chemoelastic_defo
+rmed.pdf): PDF inclusion: multiple pdfs with page group included in a single pa
+ge
+> <./figures//displacement_chemo.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figures//displacement_chem
+o.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./figures//conc_1.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figures//conc_1.pdf): PDF 
+inclusion: multiple pdfs with page group included in a single page
+> <./figures//conc.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figures//conc.pdf): PDF in
+clusion: multiple pdfs with page group included in a single page
+>]
+<figures//punch.pdf, id=199, 447.66347pt x 276.92659pt>
+File: figures//punch.pdf Graphic file (type pdf)
+<use figures//punch.pdf>
+Package pdftex.def Info: figures//punch.pdf  used on input line 130.
+(pdftex.def)             Requested size: 123.43443pt x 76.35576pt.
+ [4
+
+ <./figures//punch.pdf>] [5
+
+] [6
 
 ]
 \tf@nav=\write6
@@ -1146,22 +1232,27 @@ Package rerunfilecheck Info: File `my_beamer.out' has not changed.
 (rerunfilecheck)             Checksum: 65F2C9F0DC09CB7504E7C1CFD3FF7492;111.
  ) 
 Here is how much of TeX's memory you used:
- 24756 strings out of 478994
- 483036 string characters out of 5858184
- 743409 words of memory out of 5000000
- 41683 multiletter control sequences out of 15000+600000
- 413464 words of font info for 65 fonts, out of 8000000 for 9000
+ 24844 strings out of 478994
+ 485146 string characters out of 5858184
+ 745619 words of memory out of 5000000
+ 41754 multiletter control sequences out of 15000+600000
+ 415696 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  131i,11n,132p,434b,725s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></
-usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr
-/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb>
-Output written on my_beamer.pdf (5 pages, 57058 bytes).
+</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></
+usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
+r/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/l
+ocal/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/loca
+l/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local
+/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/t
+exlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/local/te
+xlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb>
+Output written on my_beamer.pdf (6 pages, 5377294 bytes).
 PDF statistics:
- 70 PDF objects out of 1000 (max. 8388607)
- 51 compressed objects within 1 object stream
- 12 named destinations out of 1000 (max. 500000)
- 51 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 280 PDF objects out of 1000 (max. 8388607)
+ 153 compressed objects within 2 object streams
+ 14 named destinations out of 1000 (max. 500000)
+ 101 words of extra memory for PDF output out of 10000 (max. 10000000)
 

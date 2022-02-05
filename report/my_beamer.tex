@@ -25,8 +25,8 @@
 %	TITLE PAGE
 %----------------------------------------------------------------------------------------
 
-\title[short title]{Modelli numerici elasto-plastici} % The short title appears at the bottom of every slide, the full title is only on the title page
-\subtitle{Hardening isotropo e cinematico}
+\title[short title]{Modelli computazionali multifisici} % The short title appears at the bottom of every slide, the full title is only on the title page
+\subtitle{Poroelasticità e accoppiamenti chemo-meccanici}
 
 \author[Pin-Yen] {Alessandro Mastrofini}
 
@@ -58,19 +58,83 @@ Università degli Studi di Roma Tor Vergata% Your institution for the title page
 \section{First Section}
 %------------------------------------------------
 
-\begin{frame}{Patch test}
- 
+\begin{frame}{Multiphysics}
+\begin{figure}
+\begin{minipage}{0.35\linewidth}
+\includegraphics[width=\linewidth]{poroelasticity.pdf}
+\end{minipage}\hfill
+\begin{minipage}{0.65\linewidth}\centering
+\begin{minipage}{0.4\linewidth}
+	\includegraphics[width=\linewidth]{circularTest.pdf}
+\end{minipage}\hspace{0.1\linewidth}
+\begin{minipage}{0.45\linewidth}
+	\includegraphics[width=\linewidth]{punchTest.pdf}
+\end{minipage}
+\end{minipage}
+\end{figure}
 \end{frame}
 
-\begin{frame}{Crack plate}
+\begin{frame}{Uncoupled response}
+\begin{figure}
+	\begin{minipage}{\linewidth}
+	\begin{minipage}{0.22\linewidth}\centering
+			\includegraphics[width=\linewidth]{circle.pdf}
+		\end{minipage}\hfill
+	\begin{minipage}{0.3\linewidth}\centering
+	\includegraphics[width=\linewidth]{lambda_chemoelastic.pdf}
+\end{minipage}\hfill
+		\begin{minipage}{0.3\linewidth}\centering
+		\includegraphics[width=\linewidth]{chemoelastic_deformed.pdf}
+	\end{minipage}
+	\end{minipage}
+\end{figure}
+%%%%%%%%%
+\begin{figure}
+	\begin{minipage}{\linewidth}
+		\begin{minipage}{0.3\linewidth}\centering
+			\includegraphics[width=\linewidth]{displacement_chemo.pdf}
+		\end{minipage}\hfill
+		\begin{minipage}{0.3\linewidth}\centering
+			\includegraphics[width=\linewidth]{conc_1.pdf}
+		\end{minipage}\hfill
+		\begin{minipage}{0.3\linewidth}\centering
+			\includegraphics[width=\linewidth]{conc.pdf}
+		\end{minipage}
+	\end{minipage}
+\end{figure}
+%%%%
+\end{frame}
+
+\begin{frame}{Poroelasticity}
 	
+	\begin{figure}
+		\begin{minipage}{\linewidth}
+			\begin{minipage}{0.3\linewidth}\centering
+				\includegraphics[width=\linewidth]{punch.pdf}
+			\end{minipage}\hfill
+			\begin{minipage}{0.3\linewidth}\centering
+				FIG
+				%			\includegraphics[width=\linewidth]{chemoelastic_deformed.pdf}
+			\end{minipage}\hfill
+			\begin{minipage}{0.3\linewidth}\centering
+FIG
+	%			\includegraphics[width=\linewidth]{chemoelastic_deformed.pdf}
+			\end{minipage}
+		\end{minipage}
+	\end{figure}
+
+	\tiny{$\Omega_{\mathrm{f}}\left(c-c_{0}\right)=\zeta=\alpha \varepsilon_{v o l}+\frac{p}{M}$}
+
+VARIAZIONEI DELLA CONCNTENTRAZIONE NEL TEMPO: 3 FRAME
+
 \end{frame}
 
-\begin{frame}{Stress intensity factor}
-	
+\begin{frame}{Drained conditions}
+
 \end{frame}
 
-\begin{frame}{Isotropic and kinematic hardening}
+
+\begin{frame}{Simmetry}
 	
 \end{frame}
 
