@@ -121,11 +121,11 @@ Università degli Studi di Roma Tor Vergata% Your institution for the title page
 			\begin{minipage}{0.3\linewidth}\centering
 
 \tiny{$\Omega_{\mathrm{f}}\left(c-c_{0}\right)=\zeta=\alpha \varepsilon_{v o l}+\frac{p}{M}$}
-
+\\\vspace{0.1\linewidth} \includegraphics[width=0.4\linewidth]{pores.pdf}
 			\end{minipage}\hfill
 			\begin{minipage}{0.3\linewidth}\centering
-FIG
-	%			\includegraphics[width=\linewidth]{chemoelastic_deformed.pdf}
+	 \fontsize{3pt}{4pt}\selectfont{\def\svgwidth{\linewidth}
+	\input{lambda_poro.pdf_tex}}		
 			\end{minipage}
 		\end{minipage}
 	\end{figure}
@@ -133,38 +133,143 @@ FIG
 	\begin{figure}
 	\begin{minipage}{\linewidth}
 		\begin{minipage}{0.3\linewidth}\centering
-			\includegraphics[width=\linewidth]{punch_frame_1.pdf}
+			 \fontsize{3pt}{4pt}\selectfont{\def\svgwidth{\linewidth}
+	\input{punch_frame_1_tex.pdf_tex}}		
 		\end{minipage}\hfill
 		\begin{minipage}{0.3\linewidth}\centering
-	\includegraphics[width=\linewidth]{punch_frame_2.pdf}
+	 \fontsize{3pt}{4pt}\selectfont{\def\svgwidth{\linewidth}
+	\input{punch_frame_2_tex.pdf_tex}}		
 		\end{minipage}\hfill
 		\begin{minipage}{0.3\linewidth}\centering
-	\includegraphics[width=\linewidth]{punch_frame_3.pdf}
+	 \fontsize{3pt}{4pt}\selectfont{\def\svgwidth{\linewidth}
+	\input{punch_frame_3_tex.pdf_tex}}		
 		\end{minipage}
 	\end{minipage}
 \end{figure}
 
 	\begin{figure}
-	\begin{minipage}{\linewidth}
+	\begin{minipage}{\linewidth}		\hspace{0.01\linewidth}
 		\begin{minipage}{0.6\linewidth}\centering
-			\includegraphics[width=\linewidth]{undrained.pdf}
+ \fontsize{3pt}{4pt}\selectfont{\def\svgwidth{\linewidth}
+	\input{undrained_tex.pdf_tex}}	
 		\end{minipage}\hfill
 		\begin{minipage}{0.3\linewidth}\centering
-			\includegraphics[width=\linewidth]{undrained_v.pdf}
+	
+ \fontsize{3pt}{4pt}\selectfont{\def\svgwidth{\linewidth}
+	\input{undrained_v_tex.pdf_tex}}	
 		\end{minipage}\hfill
 	\end{minipage}
 \end{figure}
-VARIAZIONEI DELLA CONCNTENTRAZIONE NEL TEMPO: 3 FRAME
+
 
 \end{frame}
 
 \begin{frame}{Drained conditions}
 
+	\begin{figure}
+	\begin{minipage}{\linewidth}
+		\begin{minipage}{0.65\linewidth}\centering
+			\begin{minipage}{\linewidth}
+ \fontsize{3pt}{4pt}\selectfont{\def\svgwidth{0.9\linewidth}
+	\input{total_displ_press_tex.pdf_tex}}	
+			\end{minipage}\vspace{0.1\linewidth}
+				\begin{minipage}{\linewidth}\hspace{0.01\linewidth}
+			 \fontsize{3pt}{4pt}\selectfont{\def\svgwidth{\linewidth}
+				\input{min_displ_press_tex.pdf_tex}}	
+			\end{minipage}
+		\end{minipage}\hfill
+		\begin{minipage}{0.35\linewidth}\centering
+\begin{minipage}{\linewidth}
+				 \fontsize{3pt}{4pt}\selectfont{\def\svgwidth{\linewidth}
+				\input{p_down_neg_tex.pdf_tex}}
+\end{minipage}\\
+\vspace{0.1\linewidth}
+\begin{minipage}{\linewidth}
+			 \fontsize{3pt}{4pt}\selectfont{\def\svgwidth{\linewidth}
+		\input{p_down_null_tex.pdf_tex}} 
+\end{minipage}\\
+		\vspace{0.1\linewidth}			
+	\begin{minipage}{\linewidth}
+		 \fontsize{3pt}{4pt}\selectfont{\def\svgwidth{\linewidth}
+	\input{p_down_pos_tex.pdf_tex}}	
+	\end{minipage}\\
+\vspace{0.05\linewidth}
+\begin{flushleft}
+ \fontsize{3pt}{4pt}\selectfont{\texttt{
+SMTAddEssentialBoundary[\\  \quad Line[\{\{0,0\},\{L,0\}\},\textcolor{gray}{"p"}],1->Line[\{\textcolor{myred}{press}\}]] 
+} }
+\end{flushleft}
+		\end{minipage}\hfill
+	\end{minipage}
+\end{figure}
+
+
 \end{frame}
 
 
-\begin{frame}{Simmetry}
-	
+\begin{frame}{Asimmetry}
+\begin{figure}
+	\centering
+	\scriptsize{right side}
+		\begin{minipage}{\linewidth}
+			\begin{minipage}{0.7\linewidth}\centering
+	 \fontsize{3pt}{4pt}\selectfont{\def\svgwidth{0.95\linewidth}
+	\input{right_pressure_tex.pdf_tex}}	
+			\end{minipage}\hfill
+			\begin{minipage}{0.3\linewidth}\centering
+ \fontsize{3pt}{4pt}\selectfont{\def\svgwidth{\linewidth}
+	\input{p_right_neg_tex.pdf_tex}}\vspace{0.03\linewidth}
+ \fontsize{3pt}{4pt}\selectfont{\def\svgwidth{\linewidth}
+	\input{p_right_pos_tex.pdf_tex}}	
+			\end{minipage}\hfill
+		\end{minipage}
+	\centering
+	\\\vspace{0.02\linewidth}
+	\scriptsize{both side}
+				\vspace{0.01\linewidth}\\
+	\begin{minipage}{\linewidth}
+		\begin{minipage}{0.5\linewidth}\centering
+				\tiny{same BC}\\\vspace{0.03\linewidth}
+				\begin{minipage}{0.45\linewidth}
+					 \fontsize{3pt}{4pt}\selectfont{\def\svgwidth{\linewidth}
+					\input{side_1_tex.pdf_tex}}
+				\end{minipage}	\hspace{0.02\linewidth}
+				\begin{minipage}{0.45\linewidth}
+					 \fontsize{3pt}{4pt}\selectfont{\def\svgwidth{\linewidth}
+					\input{side_2_tex.pdf_tex}}	
+				\end{minipage}
+			\vspace{0.03\linewidth}
+			\\ \tiny{$\Delta p =1.5 ,\:\Delta v = 0.7$}
+		\end{minipage}\hfill
+		\begin{minipage}{0.5\linewidth}\centering
+				\tiny{opposite BC}\\\vspace{0.03\linewidth}
+				\begin{minipage}{0.45\linewidth}
+				\fontsize{3pt}{4pt}\selectfont{\def\svgwidth{\linewidth}
+					\input{opposite_1_tex.pdf_tex}}
+			\end{minipage}	\hspace{0.02\linewidth}
+			\begin{minipage}{0.45\linewidth}
+				\fontsize{3pt}{4pt}\selectfont{\def\svgwidth{\linewidth}
+					\input{opposite_2_tex.pdf_tex}}	
+			\end{minipage}
+			\vspace{0.03\linewidth}
+						\\ \tiny{$\Delta p <10^{-15} ,\:\Delta v <10^{-15}$}
+		\end{minipage}\hfill
+	\end{minipage}
+			\vspace{0.02\linewidth}\\
+		\begin{minipage}{\linewidth}
+				\begin{minipage}[c]{0.3\linewidth}\centering
+\scriptsize{uncoupled response}\\\vspace{0.05\linewidth}  \fontsize{3pt}{4pt}\selectfont{\texttt{SMTAddEssentialBoundary[\textcolor{gray}{"p"}, 1 -> \textcolor{myred}{0}]];}}
+			\end{minipage}\hfill
+	\begin{minipage}[c]{0.3\linewidth}\centering
+	\fontsize{3pt}{4pt}\selectfont{\def\svgwidth{\linewidth}
+	\input{p_null_tex.pdf_tex}}	
+	\end{minipage}\hfill
+	\begin{minipage}[c]{0.32\linewidth}\centering
+	\fontsize{3pt}{4pt}\selectfont{\def\svgwidth{\linewidth}
+	\input{p_null_displ_tex.pdf_tex}}	
+	\end{minipage}\hfill
+\end{minipage}
+\end{figure}
 \end{frame}
 
 \end{document}

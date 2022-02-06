@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.10.28)  6 FEB 2022 00:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.10.28)  6 FEB 2022 12:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1592,57 +1592,1689 @@ tiple pdfs with page group included in a single page
 <figures//punch.pdf, id=673, 447.66347pt x 276.92659pt>
 File: figures//punch.pdf Graphic file (type pdf)
 <use figures//punch.pdf>
-Package pdftex.def Info: figures//punch.pdf  used on input line 159.
+Package pdftex.def Info: figures//punch.pdf  used on input line 165.
 (pdftex.def)             Requested size: 123.43443pt x 76.35576pt.
-<figures//punch_frame_1.pdf, id=674, 602.25pt x 181.67876pt>
-File: figures//punch_frame_1.pdf Graphic file (type pdf)
-<use figures//punch_frame_1.pdf>
-Package pdftex.def Info: figures//punch_frame_1.pdf  used on input line 159.
-(pdftex.def)             Requested size: 123.43443pt x 37.23605pt.
-<figures//punch_frame_2.pdf, id=675, 602.25pt x 178.6675pt>
-File: figures//punch_frame_2.pdf Graphic file (type pdf)
-<use figures//punch_frame_2.pdf>
-Package pdftex.def Info: figures//punch_frame_2.pdf  used on input line 159.
-(pdftex.def)             Requested size: 123.43443pt x 36.61888pt.
-<figures//punch_frame_3.pdf, id=676, 602.25pt x 179.67125pt>
-File: figures//punch_frame_3.pdf Graphic file (type pdf)
-<use figures//punch_frame_3.pdf>
-Package pdftex.def Info: figures//punch_frame_3.pdf  used on input line 159.
-(pdftex.def)             Requested size: 123.43443pt x 36.82462pt.
-<figures//undrained.pdf, id=677, 602.25pt x 217.81375pt>
-File: figures//undrained.pdf Graphic file (type pdf)
-<use figures//undrained.pdf>
-Package pdftex.def Info: figures//undrained.pdf  used on input line 159.
-(pdftex.def)             Requested size: 246.86888pt x 89.28426pt.
-<figures//undrained_v.pdf, id=678, 658.37968pt x 191.7564pt>
-File: figures//undrained_v.pdf Graphic file (type pdf)
-<use figures//undrained_v.pdf>
-Package pdftex.def Info: figures//undrained_v.pdf  used on input line 159.
-(pdftex.def)             Requested size: 123.43443pt x 35.94838pt.
+<figures//pores.pdf, id=674, 256.62776pt x 256.62875pt>
+File: figures//pores.pdf Graphic file (type pdf)
+<use figures//pores.pdf>
+Package pdftex.def Info: figures//pores.pdf  used on input line 165.
+(pdftex.def)             Requested size: 49.37302pt x 49.37083pt.
+ (./figures//lambda_poro.pdf_tex
+<figures//lambda_poro.pdf, id=675, page=1, 376.54741pt x 244.07184pt>
+File: figures//lambda_poro.pdf Graphic file (type pdf)
+<use figures//lambda_poro.pdf, page 1>
+Package pdftex.def Info: figures//lambda_poro.pdf , page1 used on input line 56
+.
+(pdftex.def)             Requested size: 123.43443pt x 80.00766pt.
+LaTeX Font Info:    Calculating math sizes for size <3> on input line 57.
 
-Overfull \vbox (24.14285pt too high) detected at line 159
+
+LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <2.09999> not available
+(Font)              size <3> substituted on input line 57.
+
+
+LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <1.5> not available
+(Font)              size <3> substituted on input line 57.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <2.09999> not available
+(Font)              size <3> substituted on input line 57.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <1.5> not available
+(Font)              size <3> substituted on input line 57.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <3> not available
+(Font)              size <5> substituted on input line 57.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <2.09999> not available
+(Font)              size <5> substituted on input line 57.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <1.5> not available
+(Font)              size <5> substituted on input line 57.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <3> not available
+(Font)              size <5> substituted on input line 57.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <2.09999> not available
+(Font)              size <5> substituted on input line 57.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <1.5> not available
+(Font)              size <5> substituted on input line 57.
+
+
+LaTeX Font Warning: Font shape `U/stmry/m/n' in size <3> not available
+(Font)              size <5> substituted on input line 57.
+
+
+LaTeX Font Warning: Font shape `U/stmry/m/n' in size <2.09999> not available
+(Font)              size <5> substituted on input line 57.
+
+
+LaTeX Font Warning: Font shape `U/stmry/m/n' in size <1.5> not available
+(Font)              size <5> substituted on input line 57.
+
+
+LaTeX Font Warning: Font shape `U/wasy/m/n' in size <3> not available
+(Font)              size <5> substituted on input line 57.
+
+
+LaTeX Font Warning: Font shape `U/wasy/m/n' in size <2.09999> not available
+(Font)              size <5> substituted on input line 57.
+
+
+LaTeX Font Warning: Font shape `U/wasy/m/n' in size <1.5> not available
+(Font)              size <5> substituted on input line 57.
+
+<figures//lambda_poro.pdf, id=676, page=2, 376.54741pt x 244.07184pt>
+File: figures//lambda_poro.pdf Graphic file (type pdf)
+<use figures//lambda_poro.pdf, page 2>
+Package pdftex.def Info: figures//lambda_poro.pdf , page2 used on input line 58
+.
+(pdftex.def)             Requested size: 123.43443pt x 80.00766pt.
+<figures//lambda_poro.pdf, id=677, page=3, 376.54741pt x 244.07184pt>
+File: figures//lambda_poro.pdf Graphic file (type pdf)
+<use figures//lambda_poro.pdf, page 3>
+Package pdftex.def Info: figures//lambda_poro.pdf , page3 used on input line 60
+.
+(pdftex.def)             Requested size: 123.43443pt x 80.00766pt.
+<figures//lambda_poro.pdf, id=678, page=4, 376.54741pt x 244.07184pt>
+File: figures//lambda_poro.pdf Graphic file (type pdf)
+<use figures//lambda_poro.pdf, page 4>
+Package pdftex.def Info: figures//lambda_poro.pdf , page4 used on input line 62
+.
+(pdftex.def)             Requested size: 123.43443pt x 80.00766pt.
+<figures//lambda_poro.pdf, id=679, page=5, 376.54741pt x 244.07184pt>
+File: figures//lambda_poro.pdf Graphic file (type pdf)
+<use figures//lambda_poro.pdf, page 5>
+Package pdftex.def Info: figures//lambda_poro.pdf , page5 used on input line 64
+.
+(pdftex.def)             Requested size: 123.43443pt x 80.00766pt.
+<figures//lambda_poro.pdf, id=680, page=6, 376.54741pt x 244.07184pt>
+File: figures//lambda_poro.pdf Graphic file (type pdf)
+<use figures//lambda_poro.pdf, page 6>
+Package pdftex.def Info: figures//lambda_poro.pdf , page6 used on input line 66
+.
+(pdftex.def)             Requested size: 123.43443pt x 80.00766pt.
+<figures//lambda_poro.pdf, id=681, page=7, 376.54741pt x 244.07184pt>
+File: figures//lambda_poro.pdf Graphic file (type pdf)
+<use figures//lambda_poro.pdf, page 7>
+Package pdftex.def Info: figures//lambda_poro.pdf , page7 used on input line 68
+.
+(pdftex.def)             Requested size: 123.43443pt x 80.00766pt.
+<figures//lambda_poro.pdf, id=682, page=8, 376.54741pt x 244.07184pt>
+File: figures//lambda_poro.pdf Graphic file (type pdf)
+<use figures//lambda_poro.pdf, page 8>
+Package pdftex.def Info: figures//lambda_poro.pdf , page8 used on input line 70
+.
+(pdftex.def)             Requested size: 123.43443pt x 80.00766pt.
+<figures//lambda_poro.pdf, id=683, page=9, 376.54741pt x 244.07184pt>
+File: figures//lambda_poro.pdf Graphic file (type pdf)
+<use figures//lambda_poro.pdf, page 9>
+Package pdftex.def Info: figures//lambda_poro.pdf , page9 used on input line 72
+.
+(pdftex.def)             Requested size: 123.43443pt x 80.00766pt.
+<figures//lambda_poro.pdf, id=684, page=10, 376.54741pt x 244.07184pt>
+File: figures//lambda_poro.pdf Graphic file (type pdf)
+<use figures//lambda_poro.pdf, page 10>
+Package pdftex.def Info: figures//lambda_poro.pdf , page10 used on input line 7
+4.
+(pdftex.def)             Requested size: 123.43443pt x 80.00766pt.
+<figures//lambda_poro.pdf, id=685, page=11, 376.54741pt x 244.07184pt>
+File: figures//lambda_poro.pdf Graphic file (type pdf)
+<use figures//lambda_poro.pdf, page 11>
+Package pdftex.def Info: figures//lambda_poro.pdf , page11 used on input line 7
+6.
+(pdftex.def)             Requested size: 123.43443pt x 80.00766pt.
+<figures//lambda_poro.pdf, id=686, page=12, 376.54741pt x 244.07184pt>
+File: figures//lambda_poro.pdf Graphic file (type pdf)
+<use figures//lambda_poro.pdf, page 12>
+Package pdftex.def Info: figures//lambda_poro.pdf , page12 used on input line 7
+8.
+(pdftex.def)             Requested size: 123.43443pt x 80.00766pt.
+) (./figures//punch_frame_1_tex.pdf_tex
+<figures//punch_frame_1_tex.pdf, id=687, page=1, 763.30446pt x 191.06886pt>
+File: figures//punch_frame_1_tex.pdf Graphic file (type pdf)
+<use figures//punch_frame_1_tex.pdf, page 1>
+Package pdftex.def Info: figures//punch_frame_1_tex.pdf , page1 used on input l
+ine 56.
+(pdftex.def)             Requested size: 123.43443pt x 30.89525pt.
+) (./figures//punch_frame_2_tex.pdf_tex
+<figures//punch_frame_2_tex.pdf, id=688, page=1, 763.30446pt x 188.42778pt>
+File: figures//punch_frame_2_tex.pdf Graphic file (type pdf)
+<use figures//punch_frame_2_tex.pdf, page 1>
+Package pdftex.def Info: figures//punch_frame_2_tex.pdf , page1 used on input l
+ine 56.
+(pdftex.def)             Requested size: 123.43443pt x 30.4682pt.
+) (./figures//punch_frame_3_tex.pdf_tex
+<figures//punch_frame_3_tex.pdf, id=689, page=1, 751.26534pt x 192.7103pt>
+File: figures//punch_frame_3_tex.pdf Graphic file (type pdf)
+<use figures//punch_frame_3_tex.pdf, page 1>
+Package pdftex.def Info: figures//punch_frame_3_tex.pdf , page1 used on input l
+ine 56.
+(pdftex.def)             Requested size: 123.43443pt x 31.66055pt.
+) (./figures//undrained_tex.pdf_tex
+<figures//undrained_tex.pdf, id=690, page=1, 637.94923pt x 177.76192pt>
+File: figures//undrained_tex.pdf Graphic file (type pdf)
+<use figures//undrained_tex.pdf, page 1>
+Package pdftex.def Info: figures//undrained_tex.pdf , page1 used on input line 
+56.
+(pdftex.def)             Requested size: 246.86888pt x 68.7898pt.
+<figures//undrained_tex.pdf, id=691, page=2, 637.94923pt x 177.76192pt>
+File: figures//undrained_tex.pdf Graphic file (type pdf)
+<use figures//undrained_tex.pdf, page 2>
+Package pdftex.def Info: figures//undrained_tex.pdf , page2 used on input line 
+58.
+(pdftex.def)             Requested size: 246.86888pt x 68.7898pt.
+<figures//undrained_tex.pdf, id=692, page=3, 637.94923pt x 177.76192pt>
+File: figures//undrained_tex.pdf Graphic file (type pdf)
+<use figures//undrained_tex.pdf, page 3>
+Package pdftex.def Info: figures//undrained_tex.pdf , page3 used on input line 
+60.
+(pdftex.def)             Requested size: 246.86888pt x 68.7898pt.
+<figures//undrained_tex.pdf, id=693, page=4, 637.94923pt x 177.76192pt>
+File: figures//undrained_tex.pdf Graphic file (type pdf)
+<use figures//undrained_tex.pdf, page 4>
+Package pdftex.def Info: figures//undrained_tex.pdf , page4 used on input line 
+62.
+(pdftex.def)             Requested size: 246.86888pt x 68.7898pt.
+<figures//undrained_tex.pdf, id=694, page=5, 637.94923pt x 177.76192pt>
+File: figures//undrained_tex.pdf Graphic file (type pdf)
+<use figures//undrained_tex.pdf, page 5>
+Package pdftex.def Info: figures//undrained_tex.pdf , page5 used on input line 
+64.
+(pdftex.def)             Requested size: 246.86888pt x 68.7898pt.
+<figures//undrained_tex.pdf, id=695, page=6, 637.94923pt x 177.76192pt>
+File: figures//undrained_tex.pdf Graphic file (type pdf)
+<use figures//undrained_tex.pdf, page 6>
+Package pdftex.def Info: figures//undrained_tex.pdf , page6 used on input line 
+66.
+(pdftex.def)             Requested size: 246.86888pt x 68.7898pt.
+<figures//undrained_tex.pdf, id=696, page=7, 637.94923pt x 177.76192pt>
+File: figures//undrained_tex.pdf Graphic file (type pdf)
+<use figures//undrained_tex.pdf, page 7>
+Package pdftex.def Info: figures//undrained_tex.pdf , page7 used on input line 
+68.
+(pdftex.def)             Requested size: 246.86888pt x 68.7898pt.
+<figures//undrained_tex.pdf, id=697, page=8, 637.94923pt x 177.76192pt>
+File: figures//undrained_tex.pdf Graphic file (type pdf)
+<use figures//undrained_tex.pdf, page 8>
+Package pdftex.def Info: figures//undrained_tex.pdf , page8 used on input line 
+70.
+(pdftex.def)             Requested size: 246.86888pt x 68.7898pt.
+<figures//undrained_tex.pdf, id=698, page=9, 637.94923pt x 177.76192pt>
+File: figures//undrained_tex.pdf Graphic file (type pdf)
+<use figures//undrained_tex.pdf, page 9>
+Package pdftex.def Info: figures//undrained_tex.pdf , page9 used on input line 
+72.
+(pdftex.def)             Requested size: 246.86888pt x 68.7898pt.
+<figures//undrained_tex.pdf, id=699, page=10, 637.94923pt x 177.76192pt>
+File: figures//undrained_tex.pdf Graphic file (type pdf)
+<use figures//undrained_tex.pdf, page 10>
+Package pdftex.def Info: figures//undrained_tex.pdf , page10 used on input line
+ 74.
+(pdftex.def)             Requested size: 246.86888pt x 68.7898pt.
+<figures//undrained_tex.pdf, id=700, page=11, 637.94923pt x 177.76192pt>
+File: figures//undrained_tex.pdf Graphic file (type pdf)
+<use figures//undrained_tex.pdf, page 11>
+Package pdftex.def Info: figures//undrained_tex.pdf , page11 used on input line
+ 76.
+(pdftex.def)             Requested size: 246.86888pt x 68.7898pt.
+
+
+Package amsmath Warning: Foreign command \over;
+(amsmath)                \frac or \genfrac should be used instead
+(amsmath)                 on input line 77.
+
+<figures//undrained_tex.pdf, id=701, page=12, 637.94923pt x 177.76192pt>
+File: figures//undrained_tex.pdf Graphic file (type pdf)
+<use figures//undrained_tex.pdf, page 12>
+Package pdftex.def Info: figures//undrained_tex.pdf , page12 used on input line
+ 78.
+(pdftex.def)             Requested size: 246.86888pt x 68.7898pt.
+<figures//undrained_tex.pdf, id=702, page=13, 637.94923pt x 177.76192pt>
+File: figures//undrained_tex.pdf Graphic file (type pdf)
+<use figures//undrained_tex.pdf, page 13>
+Package pdftex.def Info: figures//undrained_tex.pdf , page13 used on input line
+ 80.
+(pdftex.def)             Requested size: 246.86888pt x 68.7898pt.
+<figures//undrained_tex.pdf, id=703, page=14, 637.94923pt x 177.76192pt>
+File: figures//undrained_tex.pdf Graphic file (type pdf)
+<use figures//undrained_tex.pdf, page 14>
+Package pdftex.def Info: figures//undrained_tex.pdf , page14 used on input line
+ 82.
+(pdftex.def)             Requested size: 246.86888pt x 68.7898pt.
+<figures//undrained_tex.pdf, id=704, page=15, 637.94923pt x 177.76192pt>
+File: figures//undrained_tex.pdf Graphic file (type pdf)
+<use figures//undrained_tex.pdf, page 15>
+Package pdftex.def Info: figures//undrained_tex.pdf , page15 used on input line
+ 84.
+(pdftex.def)             Requested size: 246.86888pt x 68.7898pt.
+<figures//undrained_tex.pdf, id=705, page=16, 637.94923pt x 177.76192pt>
+File: figures//undrained_tex.pdf Graphic file (type pdf)
+<use figures//undrained_tex.pdf, page 16>
+Package pdftex.def Info: figures//undrained_tex.pdf , page16 used on input line
+ 86.
+(pdftex.def)             Requested size: 246.86888pt x 68.7898pt.
+<figures//undrained_tex.pdf, id=706, page=17, 637.94923pt x 177.76192pt>
+File: figures//undrained_tex.pdf Graphic file (type pdf)
+<use figures//undrained_tex.pdf, page 17>
+Package pdftex.def Info: figures//undrained_tex.pdf , page17 used on input line
+ 88.
+(pdftex.def)             Requested size: 246.86888pt x 68.7898pt.
+<figures//undrained_tex.pdf, id=707, page=18, 637.94923pt x 177.76192pt>
+File: figures//undrained_tex.pdf Graphic file (type pdf)
+<use figures//undrained_tex.pdf, page 18>
+Package pdftex.def Info: figures//undrained_tex.pdf , page18 used on input line
+ 91.
+(pdftex.def)             Requested size: 246.86888pt x 68.7898pt.
+<figures//undrained_tex.pdf, id=708, page=19, 637.94923pt x 177.76192pt>
+File: figures//undrained_tex.pdf Graphic file (type pdf)
+<use figures//undrained_tex.pdf, page 19>
+Package pdftex.def Info: figures//undrained_tex.pdf , page19 used on input line
+ 94.
+(pdftex.def)             Requested size: 246.86888pt x 68.7898pt.
+<figures//undrained_tex.pdf, id=709, page=20, 637.94923pt x 177.76192pt>
+File: figures//undrained_tex.pdf Graphic file (type pdf)
+<use figures//undrained_tex.pdf, page 20>
+Package pdftex.def Info: figures//undrained_tex.pdf , page20 used on input line
+ 97.
+(pdftex.def)             Requested size: 246.86888pt x 68.7898pt.
+<figures//undrained_tex.pdf, id=710, page=21, 637.94923pt x 177.76192pt>
+File: figures//undrained_tex.pdf Graphic file (type pdf)
+<use figures//undrained_tex.pdf, page 21>
+Package pdftex.def Info: figures//undrained_tex.pdf , page21 used on input line
+ 100.
+(pdftex.def)             Requested size: 246.86888pt x 68.7898pt.
+<figures//undrained_tex.pdf, id=711, page=22, 637.94923pt x 177.76192pt>
+File: figures//undrained_tex.pdf Graphic file (type pdf)
+<use figures//undrained_tex.pdf, page 22>
+Package pdftex.def Info: figures//undrained_tex.pdf , page22 used on input line
+ 103.
+(pdftex.def)             Requested size: 246.86888pt x 68.7898pt.
+<figures//undrained_tex.pdf, id=712, page=23, 637.94923pt x 177.76192pt>
+File: figures//undrained_tex.pdf Graphic file (type pdf)
+<use figures//undrained_tex.pdf, page 23>
+Package pdftex.def Info: figures//undrained_tex.pdf , page23 used on input line
+ 106.
+(pdftex.def)             Requested size: 246.86888pt x 68.7898pt.
+<figures//undrained_tex.pdf, id=713, page=24, 637.94923pt x 177.76192pt>
+File: figures//undrained_tex.pdf Graphic file (type pdf)
+<use figures//undrained_tex.pdf, page 24>
+Package pdftex.def Info: figures//undrained_tex.pdf , page24 used on input line
+ 109.
+(pdftex.def)             Requested size: 246.86888pt x 68.7898pt.
+<figures//undrained_tex.pdf, id=714, page=25, 637.94923pt x 177.76192pt>
+File: figures//undrained_tex.pdf Graphic file (type pdf)
+<use figures//undrained_tex.pdf, page 25>
+Package pdftex.def Info: figures//undrained_tex.pdf , page25 used on input line
+ 113.
+(pdftex.def)             Requested size: 246.86888pt x 68.7898pt.
+) (./figures//undrained_v_tex.pdf_tex
+<figures//undrained_v_tex.pdf, id=715, page=1, 772.70334pt x 201.75186pt>
+File: figures//undrained_v_tex.pdf Graphic file (type pdf)
+<use figures//undrained_v_tex.pdf, page 1>
+Package pdftex.def Info: figures//undrained_v_tex.pdf , page1 used on input lin
+e 56.
+(pdftex.def)             Requested size: 123.43443pt x 32.2286pt.
+<figures//undrained_v_tex.pdf, id=716, page=2, 772.70334pt x 201.75186pt>
+File: figures//undrained_v_tex.pdf Graphic file (type pdf)
+<use figures//undrained_v_tex.pdf, page 2>
+Package pdftex.def Info: figures//undrained_v_tex.pdf , page2 used on input lin
+e 75.
+(pdftex.def)             Requested size: 123.43443pt x 32.2286pt.
+) [4
+
+ <./figures//punch.pdf> <./figures//pores.pdf> <./figures//lambda_poro.pdf> <./
+figures//lambda_poro.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//lambda_poro.pdf): PDF inclusion: 
+multiple pdfs with page group included in a single page
+> <./figures//lambda_poro.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//lambda_poro.pdf): PDF inclusion: 
+multiple pdfs with page group included in a single page
+> <./figures//lambda_poro.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//lambda_poro.pdf): PDF inclusion: 
+multiple pdfs with page group included in a single page
+> <./figures//lambda_poro.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//lambda_poro.pdf): PDF inclusion: 
+multiple pdfs with page group included in a single page
+> <./figures//lambda_poro.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//lambda_poro.pdf): PDF inclusion: 
+multiple pdfs with page group included in a single page
+> <./figures//lambda_poro.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//lambda_poro.pdf): PDF inclusion: 
+multiple pdfs with page group included in a single page
+> <./figures//lambda_poro.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//lambda_poro.pdf): PDF inclusion: 
+multiple pdfs with page group included in a single page
+> <./figures//lambda_poro.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//lambda_poro.pdf): PDF inclusion: 
+multiple pdfs with page group included in a single page
+> <./figures//lambda_poro.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//lambda_poro.pdf): PDF inclusion: 
+multiple pdfs with page group included in a single page
+> <./figures//lambda_poro.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//lambda_poro.pdf): PDF inclusion: 
+multiple pdfs with page group included in a single page
+> <./figures//lambda_poro.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//lambda_poro.pdf): PDF inclusion: 
+multiple pdfs with page group included in a single page
+> <./figures//punch_frame_1_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//punch_frame_1_tex.pdf): PDF inclu
+sion: multiple pdfs with page group included in a single page
+> <./figures//punch_frame_2_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//punch_frame_2_tex.pdf): PDF inclu
+sion: multiple pdfs with page group included in a single page
+> <./figures//punch_frame_3_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//punch_frame_3_tex.pdf): PDF inclu
+sion: multiple pdfs with page group included in a single page
+> <./figures//undrained_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//undrained_tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
+> <./figures//undrained_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//undrained_tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
+> <./figures//undrained_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//undrained_tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
+> <./figures//undrained_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//undrained_tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
+> <./figures//undrained_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//undrained_tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
+> <./figures//undrained_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//undrained_tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
+> <./figures//undrained_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//undrained_tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
+> <./figures//undrained_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//undrained_tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
+> <./figures//undrained_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//undrained_tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
+> <./figures//undrained_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//undrained_tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
+> <./figures//undrained_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//undrained_tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
+> <./figures//undrained_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//undrained_tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
+> <./figures//undrained_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//undrained_tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
+> <./figures//undrained_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//undrained_tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
+> <./figures//undrained_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//undrained_tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
+> <./figures//undrained_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//undrained_tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
+> <./figures//undrained_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//undrained_tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
+> <./figures//undrained_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//undrained_tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
+> <./figures//undrained_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//undrained_tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
+> <./figures//undrained_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//undrained_tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
+> <./figures//undrained_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//undrained_tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
+> <./figures//undrained_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//undrained_tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
+> <./figures//undrained_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//undrained_tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
+> <./figures//undrained_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//undrained_tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
+> <./figures//undrained_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//undrained_tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
+> <./figures//undrained_v_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//undrained_v_tex.pdf): PDF inclusi
+on: multiple pdfs with page group included in a single page
+> <./figures//undrained_v_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//undrained_v_tex.pdf): PDF inclusi
+on: multiple pdfs with page group included in a single page
+>] (./figures//total_displ_press_tex.pdf_tex
+<figures//total_displ_press_tex.pdf, id=784, page=1, 542.84276pt x 135.15694pt>
+
+File: figures//total_displ_press_tex.pdf Graphic file (type pdf)
+<use figures//total_displ_press_tex.pdf, page 1>
+Package pdftex.def Info: figures//total_displ_press_tex.pdf , page1 used on inp
+ut line 56.
+(pdftex.def)             Requested size: 240.69083pt x 59.92706pt.
+<figures//total_displ_press_tex.pdf, id=785, page=2, 542.84276pt x 135.15694pt>
+
+File: figures//total_displ_press_tex.pdf Graphic file (type pdf)
+<use figures//total_displ_press_tex.pdf, page 2>
+Package pdftex.def Info: figures//total_displ_press_tex.pdf , page2 used on inp
+ut line 59.
+(pdftex.def)             Requested size: 240.69083pt x 59.92706pt.
+<figures//total_displ_press_tex.pdf, id=786, page=3, 542.84276pt x 135.15694pt>
+
+File: figures//total_displ_press_tex.pdf Graphic file (type pdf)
+<use figures//total_displ_press_tex.pdf, page 3>
+Package pdftex.def Info: figures//total_displ_press_tex.pdf , page3 used on inp
+ut line 62.
+(pdftex.def)             Requested size: 240.69083pt x 59.92706pt.
+<figures//total_displ_press_tex.pdf, id=787, page=4, 542.84276pt x 135.15694pt>
+
+File: figures//total_displ_press_tex.pdf Graphic file (type pdf)
+<use figures//total_displ_press_tex.pdf, page 4>
+Package pdftex.def Info: figures//total_displ_press_tex.pdf , page4 used on inp
+ut line 65.
+(pdftex.def)             Requested size: 240.69083pt x 59.92706pt.
+<figures//total_displ_press_tex.pdf, id=788, page=5, 542.84276pt x 135.15694pt>
+
+File: figures//total_displ_press_tex.pdf Graphic file (type pdf)
+<use figures//total_displ_press_tex.pdf, page 5>
+Package pdftex.def Info: figures//total_displ_press_tex.pdf , page5 used on inp
+ut line 68.
+(pdftex.def)             Requested size: 240.69083pt x 59.92706pt.
+<figures//total_displ_press_tex.pdf, id=789, page=6, 542.84276pt x 135.15694pt>
+
+File: figures//total_displ_press_tex.pdf Graphic file (type pdf)
+<use figures//total_displ_press_tex.pdf, page 6>
+Package pdftex.def Info: figures//total_displ_press_tex.pdf , page6 used on inp
+ut line 70.
+(pdftex.def)             Requested size: 240.69083pt x 59.92706pt.
+<figures//total_displ_press_tex.pdf, id=790, page=7, 542.84276pt x 135.15694pt>
+
+File: figures//total_displ_press_tex.pdf Graphic file (type pdf)
+<use figures//total_displ_press_tex.pdf, page 7>
+Package pdftex.def Info: figures//total_displ_press_tex.pdf , page7 used on inp
+ut line 72.
+(pdftex.def)             Requested size: 240.69083pt x 59.92706pt.
+<figures//total_displ_press_tex.pdf, id=791, page=8, 542.84276pt x 135.15694pt>
+
+File: figures//total_displ_press_tex.pdf Graphic file (type pdf)
+<use figures//total_displ_press_tex.pdf, page 8>
+Package pdftex.def Info: figures//total_displ_press_tex.pdf , page8 used on inp
+ut line 74.
+(pdftex.def)             Requested size: 240.69083pt x 59.92706pt.
+<figures//total_displ_press_tex.pdf, id=792, page=9, 542.84276pt x 135.15694pt>
+
+File: figures//total_displ_press_tex.pdf Graphic file (type pdf)
+<use figures//total_displ_press_tex.pdf, page 9>
+Package pdftex.def Info: figures//total_displ_press_tex.pdf , page9 used on inp
+ut line 76.
+(pdftex.def)             Requested size: 240.69083pt x 59.92706pt.
+<figures//total_displ_press_tex.pdf, id=793, page=10, 542.84276pt x 135.15694pt
+>
+File: figures//total_displ_press_tex.pdf Graphic file (type pdf)
+<use figures//total_displ_press_tex.pdf, page 10>
+Package pdftex.def Info: figures//total_displ_press_tex.pdf , page10 used on in
+put line 78.
+(pdftex.def)             Requested size: 240.69083pt x 59.92706pt.
+<figures//total_displ_press_tex.pdf, id=794, page=11, 542.84276pt x 135.15694pt
+>
+File: figures//total_displ_press_tex.pdf Graphic file (type pdf)
+<use figures//total_displ_press_tex.pdf, page 11>
+Package pdftex.def Info: figures//total_displ_press_tex.pdf , page11 used on in
+put line 80.
+(pdftex.def)             Requested size: 240.69083pt x 59.92706pt.
+<figures//total_displ_press_tex.pdf, id=795, page=12, 542.84276pt x 135.15694pt
+>
+File: figures//total_displ_press_tex.pdf Graphic file (type pdf)
+<use figures//total_displ_press_tex.pdf, page 12>
+Package pdftex.def Info: figures//total_displ_press_tex.pdf , page12 used on in
+put line 82.
+(pdftex.def)             Requested size: 240.69083pt x 59.92706pt.
+<figures//total_displ_press_tex.pdf, id=796, page=13, 542.84276pt x 135.15694pt
+>
+File: figures//total_displ_press_tex.pdf Graphic file (type pdf)
+<use figures//total_displ_press_tex.pdf, page 13>
+Package pdftex.def Info: figures//total_displ_press_tex.pdf , page13 used on in
+put line 84.
+(pdftex.def)             Requested size: 240.69083pt x 59.92706pt.
+<figures//total_displ_press_tex.pdf, id=797, page=14, 542.84276pt x 135.15694pt
+>
+File: figures//total_displ_press_tex.pdf Graphic file (type pdf)
+<use figures//total_displ_press_tex.pdf, page 14>
+Package pdftex.def Info: figures//total_displ_press_tex.pdf , page14 used on in
+put line 86.
+(pdftex.def)             Requested size: 240.69083pt x 59.92706pt.
+<figures//total_displ_press_tex.pdf, id=798, page=15, 542.84276pt x 135.15694pt
+>
+File: figures//total_displ_press_tex.pdf Graphic file (type pdf)
+<use figures//total_displ_press_tex.pdf, page 15>
+Package pdftex.def Info: figures//total_displ_press_tex.pdf , page15 used on in
+put line 88.
+(pdftex.def)             Requested size: 240.69083pt x 59.92706pt.
+<figures//total_displ_press_tex.pdf, id=799, page=16, 542.84276pt x 135.15694pt
+>
+File: figures//total_displ_press_tex.pdf Graphic file (type pdf)
+<use figures//total_displ_press_tex.pdf, page 16>
+Package pdftex.def Info: figures//total_displ_press_tex.pdf , page16 used on in
+put line 91.
+(pdftex.def)             Requested size: 240.69083pt x 59.92706pt.
+<figures//total_displ_press_tex.pdf, id=800, page=17, 542.84276pt x 135.15694pt
+>
+File: figures//total_displ_press_tex.pdf Graphic file (type pdf)
+<use figures//total_displ_press_tex.pdf, page 17>
+Package pdftex.def Info: figures//total_displ_press_tex.pdf , page17 used on in
+put line 94.
+(pdftex.def)             Requested size: 240.69083pt x 59.92706pt.
+<figures//total_displ_press_tex.pdf, id=801, page=18, 542.84276pt x 135.15694pt
+>
+File: figures//total_displ_press_tex.pdf Graphic file (type pdf)
+<use figures//total_displ_press_tex.pdf, page 18>
+Package pdftex.def Info: figures//total_displ_press_tex.pdf , page18 used on in
+put line 97.
+(pdftex.def)             Requested size: 240.69083pt x 59.92706pt.
+<figures//total_displ_press_tex.pdf, id=802, page=19, 542.84276pt x 135.15694pt
+>
+File: figures//total_displ_press_tex.pdf Graphic file (type pdf)
+<use figures//total_displ_press_tex.pdf, page 19>
+Package pdftex.def Info: figures//total_displ_press_tex.pdf , page19 used on in
+put line 100.
+(pdftex.def)             Requested size: 240.69083pt x 59.92706pt.
+<figures//total_displ_press_tex.pdf, id=803, page=20, 542.84276pt x 135.15694pt
+>
+File: figures//total_displ_press_tex.pdf Graphic file (type pdf)
+<use figures//total_displ_press_tex.pdf, page 20>
+Package pdftex.def Info: figures//total_displ_press_tex.pdf , page20 used on in
+put line 103.
+(pdftex.def)             Requested size: 240.69083pt x 59.92706pt.
+<figures//total_displ_press_tex.pdf, id=804, page=21, 542.84276pt x 135.15694pt
+>
+File: figures//total_displ_press_tex.pdf Graphic file (type pdf)
+<use figures//total_displ_press_tex.pdf, page 21>
+Package pdftex.def Info: figures//total_displ_press_tex.pdf , page21 used on in
+put line 106.
+(pdftex.def)             Requested size: 240.69083pt x 59.92706pt.
+<figures//total_displ_press_tex.pdf, id=805, page=22, 542.84276pt x 135.15694pt
+>
+File: figures//total_displ_press_tex.pdf Graphic file (type pdf)
+<use figures//total_displ_press_tex.pdf, page 22>
+Package pdftex.def Info: figures//total_displ_press_tex.pdf , page22 used on in
+put line 109.
+(pdftex.def)             Requested size: 240.69083pt x 59.92706pt.
+<figures//total_displ_press_tex.pdf, id=806, page=23, 542.84276pt x 135.15694pt
+>
+File: figures//total_displ_press_tex.pdf Graphic file (type pdf)
+<use figures//total_displ_press_tex.pdf, page 23>
+Package pdftex.def Info: figures//total_displ_press_tex.pdf , page23 used on in
+put line 112.
+(pdftex.def)             Requested size: 240.69083pt x 59.92706pt.
+<figures//total_displ_press_tex.pdf, id=807, page=24, 542.84276pt x 135.15694pt
+>
+File: figures//total_displ_press_tex.pdf Graphic file (type pdf)
+<use figures//total_displ_press_tex.pdf, page 24>
+Package pdftex.def Info: figures//total_displ_press_tex.pdf , page24 used on in
+put line 115.
+(pdftex.def)             Requested size: 240.69083pt x 59.92706pt.
+<figures//total_displ_press_tex.pdf, id=808, page=25, 542.84276pt x 135.15694pt
+>
+File: figures//total_displ_press_tex.pdf Graphic file (type pdf)
+<use figures//total_displ_press_tex.pdf, page 25>
+Package pdftex.def Info: figures//total_displ_press_tex.pdf , page25 used on in
+put line 117.
+(pdftex.def)             Requested size: 240.69083pt x 59.92706pt.
+<figures//total_displ_press_tex.pdf, id=809, page=26, 542.84276pt x 135.15694pt
+>
+File: figures//total_displ_press_tex.pdf Graphic file (type pdf)
+<use figures//total_displ_press_tex.pdf, page 26>
+Package pdftex.def Info: figures//total_displ_press_tex.pdf , page26 used on in
+put line 119.
+(pdftex.def)             Requested size: 240.69083pt x 59.92706pt.
+<figures//total_displ_press_tex.pdf, id=810, page=27, 542.84276pt x 135.15694pt
+>
+File: figures//total_displ_press_tex.pdf Graphic file (type pdf)
+<use figures//total_displ_press_tex.pdf, page 27>
+Package pdftex.def Info: figures//total_displ_press_tex.pdf , page27 used on in
+put line 121.
+(pdftex.def)             Requested size: 240.69083pt x 59.92706pt.
+<figures//total_displ_press_tex.pdf, id=811, page=28, 542.84276pt x 135.15694pt
+>
+File: figures//total_displ_press_tex.pdf Graphic file (type pdf)
+<use figures//total_displ_press_tex.pdf, page 28>
+Package pdftex.def Info: figures//total_displ_press_tex.pdf , page28 used on in
+put line 123.
+(pdftex.def)             Requested size: 240.69083pt x 59.92706pt.
+<figures//total_displ_press_tex.pdf, id=812, page=29, 542.84276pt x 135.15694pt
+>
+File: figures//total_displ_press_tex.pdf Graphic file (type pdf)
+<use figures//total_displ_press_tex.pdf, page 29>
+Package pdftex.def Info: figures//total_displ_press_tex.pdf , page29 used on in
+put line 125.
+(pdftex.def)             Requested size: 240.69083pt x 59.92706pt.
+<figures//total_displ_press_tex.pdf, id=813, page=30, 542.84276pt x 135.15694pt
+>
+File: figures//total_displ_press_tex.pdf Graphic file (type pdf)
+<use figures//total_displ_press_tex.pdf, page 30>
+Package pdftex.def Info: figures//total_displ_press_tex.pdf , page30 used on in
+put line 127.
+(pdftex.def)             Requested size: 240.69083pt x 59.92706pt.
+<figures//total_displ_press_tex.pdf, id=814, page=31, 542.84276pt x 135.15694pt
+>
+File: figures//total_displ_press_tex.pdf Graphic file (type pdf)
+<use figures//total_displ_press_tex.pdf, page 31>
+Package pdftex.def Info: figures//total_displ_press_tex.pdf , page31 used on in
+put line 129.
+(pdftex.def)             Requested size: 240.69083pt x 59.92706pt.
+<figures//total_displ_press_tex.pdf, id=815, page=32, 542.84276pt x 135.15694pt
+>
+File: figures//total_displ_press_tex.pdf Graphic file (type pdf)
+<use figures//total_displ_press_tex.pdf, page 32>
+Package pdftex.def Info: figures//total_displ_press_tex.pdf , page32 used on in
+put line 131.
+(pdftex.def)             Requested size: 240.69083pt x 59.92706pt.
+<figures//total_displ_press_tex.pdf, id=816, page=33, 542.84276pt x 135.15694pt
+>
+File: figures//total_displ_press_tex.pdf Graphic file (type pdf)
+<use figures//total_displ_press_tex.pdf, page 33>
+Package pdftex.def Info: figures//total_displ_press_tex.pdf , page33 used on in
+put line 133.
+(pdftex.def)             Requested size: 240.69083pt x 59.92706pt.
+<figures//total_displ_press_tex.pdf, id=817, page=34, 542.84276pt x 135.15694pt
+>
+File: figures//total_displ_press_tex.pdf Graphic file (type pdf)
+<use figures//total_displ_press_tex.pdf, page 34>
+Package pdftex.def Info: figures//total_displ_press_tex.pdf , page34 used on in
+put line 135.
+(pdftex.def)             Requested size: 240.69083pt x 59.92706pt.
+<figures//total_displ_press_tex.pdf, id=818, page=35, 542.84276pt x 135.15694pt
+>
+File: figures//total_displ_press_tex.pdf Graphic file (type pdf)
+<use figures//total_displ_press_tex.pdf, page 35>
+Package pdftex.def Info: figures//total_displ_press_tex.pdf , page35 used on in
+put line 137.
+(pdftex.def)             Requested size: 240.69083pt x 59.92706pt.
+<figures//total_displ_press_tex.pdf, id=819, page=36, 542.84276pt x 135.15694pt
+>
+File: figures//total_displ_press_tex.pdf Graphic file (type pdf)
+<use figures//total_displ_press_tex.pdf, page 36>
+Package pdftex.def Info: figures//total_displ_press_tex.pdf , page36 used on in
+put line 139.
+(pdftex.def)             Requested size: 240.69083pt x 59.92706pt.
+<figures//total_displ_press_tex.pdf, id=820, page=37, 542.84276pt x 135.15694pt
+>
+File: figures//total_displ_press_tex.pdf Graphic file (type pdf)
+<use figures//total_displ_press_tex.pdf, page 37>
+Package pdftex.def Info: figures//total_displ_press_tex.pdf , page37 used on in
+put line 141.
+(pdftex.def)             Requested size: 240.69083pt x 59.92706pt.
+)
+(./figures//min_displ_press_tex.pdf_tex
+<figures//min_displ_press_tex.pdf, id=821, page=1, 689.51291pt x 184.08467pt>
+File: figures//min_displ_press_tex.pdf Graphic file (type pdf)
+<use figures//min_displ_press_tex.pdf, page 1>
+Package pdftex.def Info: figures//min_displ_press_tex.pdf , page1 used on input
+ line 56.
+(pdftex.def)             Requested size: 267.43607pt x 71.39948pt.
+<figures//min_displ_press_tex.pdf, id=822, page=2, 689.51291pt x 184.08467pt>
+File: figures//min_displ_press_tex.pdf Graphic file (type pdf)
+<use figures//min_displ_press_tex.pdf, page 2>
+Package pdftex.def Info: figures//min_displ_press_tex.pdf , page2 used on input
+ line 59.
+(pdftex.def)             Requested size: 267.43607pt x 71.39948pt.
+<figures//min_displ_press_tex.pdf, id=823, page=3, 689.51291pt x 184.08467pt>
+File: figures//min_displ_press_tex.pdf Graphic file (type pdf)
+<use figures//min_displ_press_tex.pdf, page 3>
+Package pdftex.def Info: figures//min_displ_press_tex.pdf , page3 used on input
+ line 62.
+(pdftex.def)             Requested size: 267.43607pt x 71.39948pt.
+<figures//min_displ_press_tex.pdf, id=824, page=4, 689.51291pt x 184.08467pt>
+File: figures//min_displ_press_tex.pdf Graphic file (type pdf)
+<use figures//min_displ_press_tex.pdf, page 4>
+Package pdftex.def Info: figures//min_displ_press_tex.pdf , page4 used on input
+ line 64.
+(pdftex.def)             Requested size: 267.43607pt x 71.39948pt.
+<figures//min_displ_press_tex.pdf, id=825, page=5, 689.51291pt x 184.08467pt>
+File: figures//min_displ_press_tex.pdf Graphic file (type pdf)
+<use figures//min_displ_press_tex.pdf, page 5>
+Package pdftex.def Info: figures//min_displ_press_tex.pdf , page5 used on input
+ line 66.
+(pdftex.def)             Requested size: 267.43607pt x 71.39948pt.
+<figures//min_displ_press_tex.pdf, id=826, page=6, 689.51291pt x 184.08467pt>
+File: figures//min_displ_press_tex.pdf Graphic file (type pdf)
+<use figures//min_displ_press_tex.pdf, page 6>
+Package pdftex.def Info: figures//min_displ_press_tex.pdf , page6 used on input
+ line 69.
+(pdftex.def)             Requested size: 267.43607pt x 71.39948pt.
+<figures//min_displ_press_tex.pdf, id=827, page=7, 689.51291pt x 184.08467pt>
+File: figures//min_displ_press_tex.pdf Graphic file (type pdf)
+<use figures//min_displ_press_tex.pdf, page 7>
+Package pdftex.def Info: figures//min_displ_press_tex.pdf , page7 used on input
+ line 72.
+(pdftex.def)             Requested size: 267.43607pt x 71.39948pt.
+<figures//min_displ_press_tex.pdf, id=828, page=8, 689.51291pt x 184.08467pt>
+File: figures//min_displ_press_tex.pdf Graphic file (type pdf)
+<use figures//min_displ_press_tex.pdf, page 8>
+Package pdftex.def Info: figures//min_displ_press_tex.pdf , page8 used on input
+ line 75.
+(pdftex.def)             Requested size: 267.43607pt x 71.39948pt.
+<figures//min_displ_press_tex.pdf, id=829, page=9, 689.51291pt x 184.08467pt>
+File: figures//min_displ_press_tex.pdf Graphic file (type pdf)
+<use figures//min_displ_press_tex.pdf, page 9>
+Package pdftex.def Info: figures//min_displ_press_tex.pdf , page9 used on input
+ line 78.
+(pdftex.def)             Requested size: 267.43607pt x 71.39948pt.
+<figures//min_displ_press_tex.pdf, id=830, page=10, 689.51291pt x 184.08467pt>
+File: figures//min_displ_press_tex.pdf Graphic file (type pdf)
+<use figures//min_displ_press_tex.pdf, page 10>
+Package pdftex.def Info: figures//min_displ_press_tex.pdf , page10 used on inpu
+t line 81.
+(pdftex.def)             Requested size: 267.43607pt x 71.39948pt.
+<figures//min_displ_press_tex.pdf, id=831, page=11, 689.51291pt x 184.08467pt>
+File: figures//min_displ_press_tex.pdf Graphic file (type pdf)
+<use figures//min_displ_press_tex.pdf, page 11>
+Package pdftex.def Info: figures//min_displ_press_tex.pdf , page11 used on inpu
+t line 84.
+(pdftex.def)             Requested size: 267.43607pt x 71.39948pt.
+<figures//min_displ_press_tex.pdf, id=832, page=12, 689.51291pt x 184.08467pt>
+File: figures//min_displ_press_tex.pdf Graphic file (type pdf)
+<use figures//min_displ_press_tex.pdf, page 12>
+Package pdftex.def Info: figures//min_displ_press_tex.pdf , page12 used on inpu
+t line 87.
+(pdftex.def)             Requested size: 267.43607pt x 71.39948pt.
+<figures//min_displ_press_tex.pdf, id=833, page=13, 689.51291pt x 184.08467pt>
+File: figures//min_displ_press_tex.pdf Graphic file (type pdf)
+<use figures//min_displ_press_tex.pdf, page 13>
+Package pdftex.def Info: figures//min_displ_press_tex.pdf , page13 used on inpu
+t line 89.
+(pdftex.def)             Requested size: 267.43607pt x 71.39948pt.
+<figures//min_displ_press_tex.pdf, id=834, page=14, 689.51291pt x 184.08467pt>
+File: figures//min_displ_press_tex.pdf Graphic file (type pdf)
+<use figures//min_displ_press_tex.pdf, page 14>
+Package pdftex.def Info: figures//min_displ_press_tex.pdf , page14 used on inpu
+t line 91.
+(pdftex.def)             Requested size: 267.43607pt x 71.39948pt.
+<figures//min_displ_press_tex.pdf, id=835, page=15, 689.51291pt x 184.08467pt>
+File: figures//min_displ_press_tex.pdf Graphic file (type pdf)
+<use figures//min_displ_press_tex.pdf, page 15>
+Package pdftex.def Info: figures//min_displ_press_tex.pdf , page15 used on inpu
+t line 93.
+(pdftex.def)             Requested size: 267.43607pt x 71.39948pt.
+<figures//min_displ_press_tex.pdf, id=836, page=16, 689.51291pt x 184.08467pt>
+File: figures//min_displ_press_tex.pdf Graphic file (type pdf)
+<use figures//min_displ_press_tex.pdf, page 16>
+Package pdftex.def Info: figures//min_displ_press_tex.pdf , page16 used on inpu
+t line 95.
+(pdftex.def)             Requested size: 267.43607pt x 71.39948pt.
+<figures//min_displ_press_tex.pdf, id=837, page=17, 689.51291pt x 184.08467pt>
+File: figures//min_displ_press_tex.pdf Graphic file (type pdf)
+<use figures//min_displ_press_tex.pdf, page 17>
+Package pdftex.def Info: figures//min_displ_press_tex.pdf , page17 used on inpu
+t line 97.
+(pdftex.def)             Requested size: 267.43607pt x 71.39948pt.
+<figures//min_displ_press_tex.pdf, id=838, page=18, 689.51291pt x 184.08467pt>
+File: figures//min_displ_press_tex.pdf Graphic file (type pdf)
+<use figures//min_displ_press_tex.pdf, page 18>
+Package pdftex.def Info: figures//min_displ_press_tex.pdf , page18 used on inpu
+t line 99.
+(pdftex.def)             Requested size: 267.43607pt x 71.39948pt.
+<figures//min_displ_press_tex.pdf, id=839, page=19, 689.51291pt x 184.08467pt>
+File: figures//min_displ_press_tex.pdf Graphic file (type pdf)
+<use figures//min_displ_press_tex.pdf, page 19>
+Package pdftex.def Info: figures//min_displ_press_tex.pdf , page19 used on inpu
+t line 101.
+(pdftex.def)             Requested size: 267.43607pt x 71.39948pt.
+<figures//min_displ_press_tex.pdf, id=840, page=20, 689.51291pt x 184.08467pt>
+File: figures//min_displ_press_tex.pdf Graphic file (type pdf)
+<use figures//min_displ_press_tex.pdf, page 20>
+Package pdftex.def Info: figures//min_displ_press_tex.pdf , page20 used on inpu
+t line 103.
+(pdftex.def)             Requested size: 267.43607pt x 71.39948pt.
+<figures//min_displ_press_tex.pdf, id=841, page=21, 689.51291pt x 184.08467pt>
+File: figures//min_displ_press_tex.pdf Graphic file (type pdf)
+<use figures//min_displ_press_tex.pdf, page 21>
+Package pdftex.def Info: figures//min_displ_press_tex.pdf , page21 used on inpu
+t line 105.
+(pdftex.def)             Requested size: 267.43607pt x 71.39948pt.
+)
+Overfull \hbox (5.81456pt too wide) in paragraph at lines 207--207
+[]   [] 
  []
 
-[4
+(./figures//p_down_neg_tex.pdf_tex
+<figures//p_down_neg_tex.pdf, id=842, page=1, 428.20586pt x 120.01271pt>
+File: figures//p_down_neg_tex.pdf Graphic file (type pdf)
+<use figures//p_down_neg_tex.pdf, page 1>
+Package pdftex.def Info: figures//p_down_neg_tex.pdf , page1 used on input line
+ 56.
+(pdftex.def)             Requested size: 144.00789pt x 40.36061pt.
+) (./figures//p_down_null_tex.pdf_tex
+<figures//p_down_null_tex.pdf, id=843, page=1, 427.88023pt x 117.93394pt>
+File: figures//p_down_null_tex.pdf Graphic file (type pdf)
+<use figures//p_down_null_tex.pdf, page 1>
+Package pdftex.def Info: figures//p_down_null_tex.pdf , page1 used on input lin
+e 56.
+(pdftex.def)             Requested size: 144.00789pt x 39.69211pt.
+)
+(./figures//p_down_pos_tex.pdf_tex
+<figures//p_down_pos_tex.pdf, id=844, page=1, 424.62396pt x 120.91634pt>
+File: figures//p_down_pos_tex.pdf Graphic file (type pdf)
+<use figures//p_down_pos_tex.pdf, page 1>
+Package pdftex.def Info: figures//p_down_pos_tex.pdf , page1 used on input line
+ 56.
+(pdftex.def)             Requested size: 144.00789pt x 41.00768pt.
+)
 
- <./figures//punch.pdf> <./figures//punch_frame_1.pdf> <./figures//punch_frame_
-2.pdf
+LaTeX Font Warning: Font shape `OT1/cmtt/m/n' in size <3> not available
+(Font)              size <5> substituted on input line 207.
 
-pdfTeX warning: pdflatex.exe (file ./figures//punch_frame_2.pdf): PDF inclusion
-: multiple pdfs with page group included in a single page
-> <./figures//punch_frame_3.pdf
+LaTeX Font Info:    Trying to load font information for OMS+cmtt on input line 
+207.
+LaTeX Font Info:    No file OMScmtt.fd. on input line 207.
 
-pdfTeX warning: pdflatex.exe (file ./figures//punch_frame_3.pdf): PDF inclusion
-: multiple pdfs with page group included in a single page
-> <./figures//undrained.pdf
+LaTeX Font Warning: Font shape `OMS/cmtt/m/n' undefined
+(Font)              using `OMS/cmsy/m/n' instead
+(Font)              for symbol `textbraceleft' on input line 207.
 
-pdfTeX warning: pdflatex.exe (file ./figures//undrained.pdf): PDF inclusion: mu
-ltiple pdfs with page group included in a single page
-> <./figures//undrained_v.pdf>] [5
 
-] [6
+LaTeX Font Warning: Font shape `OMS/cmtt/m/n' in size <3> not available
+(Font)              size <5> substituted on input line 207.
 
-]
+[5
+
+ <./figures//total_displ_press_tex.pdf> <./figures//total_displ_press_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//total_displ_press_tex.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+> <./figures//total_displ_press_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//total_displ_press_tex.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+> <./figures//total_displ_press_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//total_displ_press_tex.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+> <./figures//total_displ_press_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//total_displ_press_tex.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+> <./figures//total_displ_press_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//total_displ_press_tex.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+> <./figures//total_displ_press_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//total_displ_press_tex.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+> <./figures//total_displ_press_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//total_displ_press_tex.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+> <./figures//total_displ_press_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//total_displ_press_tex.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+> <./figures//total_displ_press_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//total_displ_press_tex.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+> <./figures//total_displ_press_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//total_displ_press_tex.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+> <./figures//total_displ_press_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//total_displ_press_tex.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+> <./figures//total_displ_press_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//total_displ_press_tex.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+> <./figures//total_displ_press_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//total_displ_press_tex.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+> <./figures//total_displ_press_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//total_displ_press_tex.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+> <./figures//total_displ_press_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//total_displ_press_tex.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+> <./figures//total_displ_press_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//total_displ_press_tex.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+> <./figures//total_displ_press_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//total_displ_press_tex.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+> <./figures//total_displ_press_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//total_displ_press_tex.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+> <./figures//total_displ_press_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//total_displ_press_tex.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+> <./figures//total_displ_press_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//total_displ_press_tex.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+> <./figures//total_displ_press_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//total_displ_press_tex.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+> <./figures//total_displ_press_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//total_displ_press_tex.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+> <./figures//total_displ_press_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//total_displ_press_tex.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+> <./figures//total_displ_press_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//total_displ_press_tex.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+> <./figures//total_displ_press_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//total_displ_press_tex.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+> <./figures//total_displ_press_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//total_displ_press_tex.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+> <./figures//total_displ_press_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//total_displ_press_tex.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+> <./figures//total_displ_press_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//total_displ_press_tex.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+> <./figures//total_displ_press_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//total_displ_press_tex.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+> <./figures//total_displ_press_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//total_displ_press_tex.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+> <./figures//total_displ_press_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//total_displ_press_tex.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+> <./figures//total_displ_press_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//total_displ_press_tex.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+> <./figures//total_displ_press_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//total_displ_press_tex.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+> <./figures//total_displ_press_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//total_displ_press_tex.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+> <./figures//total_displ_press_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//total_displ_press_tex.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+> <./figures//total_displ_press_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//total_displ_press_tex.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+> <./figures//min_displ_press_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//min_displ_press_tex.pdf): PDF inc
+lusion: multiple pdfs with page group included in a single page
+> <./figures//min_displ_press_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//min_displ_press_tex.pdf): PDF inc
+lusion: multiple pdfs with page group included in a single page
+> <./figures//min_displ_press_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//min_displ_press_tex.pdf): PDF inc
+lusion: multiple pdfs with page group included in a single page
+> <./figures//min_displ_press_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//min_displ_press_tex.pdf): PDF inc
+lusion: multiple pdfs with page group included in a single page
+> <./figures//min_displ_press_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//min_displ_press_tex.pdf): PDF inc
+lusion: multiple pdfs with page group included in a single page
+> <./figures//min_displ_press_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//min_displ_press_tex.pdf): PDF inc
+lusion: multiple pdfs with page group included in a single page
+> <./figures//min_displ_press_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//min_displ_press_tex.pdf): PDF inc
+lusion: multiple pdfs with page group included in a single page
+> <./figures//min_displ_press_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//min_displ_press_tex.pdf): PDF inc
+lusion: multiple pdfs with page group included in a single page
+> <./figures//min_displ_press_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//min_displ_press_tex.pdf): PDF inc
+lusion: multiple pdfs with page group included in a single page
+> <./figures//min_displ_press_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//min_displ_press_tex.pdf): PDF inc
+lusion: multiple pdfs with page group included in a single page
+> <./figures//min_displ_press_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//min_displ_press_tex.pdf): PDF inc
+lusion: multiple pdfs with page group included in a single page
+> <./figures//min_displ_press_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//min_displ_press_tex.pdf): PDF inc
+lusion: multiple pdfs with page group included in a single page
+> <./figures//min_displ_press_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//min_displ_press_tex.pdf): PDF inc
+lusion: multiple pdfs with page group included in a single page
+> <./figures//min_displ_press_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//min_displ_press_tex.pdf): PDF inc
+lusion: multiple pdfs with page group included in a single page
+> <./figures//min_displ_press_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//min_displ_press_tex.pdf): PDF inc
+lusion: multiple pdfs with page group included in a single page
+> <./figures//min_displ_press_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//min_displ_press_tex.pdf): PDF inc
+lusion: multiple pdfs with page group included in a single page
+> <./figures//min_displ_press_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//min_displ_press_tex.pdf): PDF inc
+lusion: multiple pdfs with page group included in a single page
+> <./figures//min_displ_press_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//min_displ_press_tex.pdf): PDF inc
+lusion: multiple pdfs with page group included in a single page
+> <./figures//min_displ_press_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//min_displ_press_tex.pdf): PDF inc
+lusion: multiple pdfs with page group included in a single page
+> <./figures//min_displ_press_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//min_displ_press_tex.pdf): PDF inc
+lusion: multiple pdfs with page group included in a single page
+> <./figures//min_displ_press_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//min_displ_press_tex.pdf): PDF inc
+lusion: multiple pdfs with page group included in a single page
+> <./figures//p_down_neg_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//p_down_neg_tex.pdf): PDF inclusio
+n: multiple pdfs with page group included in a single page
+> <./figures//p_down_null_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//p_down_null_tex.pdf): PDF inclusi
+on: multiple pdfs with page group included in a single page
+> <./figures//p_down_pos_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//p_down_pos_tex.pdf): PDF inclusio
+n: multiple pdfs with page group included in a single page
+>] (./figures//right_pressure_tex.pdf_tex
+<figures//right_pressure_tex.pdf, id=879, page=1, 516.02368pt x 128.54617pt>
+File: figures//right_pressure_tex.pdf Graphic file (type pdf)
+<use figures//right_pressure_tex.pdf, page 1>
+Package pdftex.def Info: figures//right_pressure_tex.pdf , page1 used on input 
+line 56.
+(pdftex.def)             Requested size: 273.60815pt x 68.16052pt.
+<figures//right_pressure_tex.pdf, id=880, page=2, 516.02368pt x 128.54617pt>
+File: figures//right_pressure_tex.pdf Graphic file (type pdf)
+<use figures//right_pressure_tex.pdf, page 2>
+Package pdftex.def Info: figures//right_pressure_tex.pdf , page2 used on input 
+line 59.
+(pdftex.def)             Requested size: 273.60815pt x 68.16052pt.
+<figures//right_pressure_tex.pdf, id=881, page=3, 516.02368pt x 128.54617pt>
+File: figures//right_pressure_tex.pdf Graphic file (type pdf)
+<use figures//right_pressure_tex.pdf, page 3>
+Package pdftex.def Info: figures//right_pressure_tex.pdf , page3 used on input 
+line 62.
+(pdftex.def)             Requested size: 273.60815pt x 68.16052pt.
+<figures//right_pressure_tex.pdf, id=882, page=4, 516.02368pt x 128.54617pt>
+File: figures//right_pressure_tex.pdf Graphic file (type pdf)
+<use figures//right_pressure_tex.pdf, page 4>
+Package pdftex.def Info: figures//right_pressure_tex.pdf , page4 used on input 
+line 65.
+(pdftex.def)             Requested size: 273.60815pt x 68.16052pt.
+<figures//right_pressure_tex.pdf, id=883, page=5, 516.02368pt x 128.54617pt>
+File: figures//right_pressure_tex.pdf Graphic file (type pdf)
+<use figures//right_pressure_tex.pdf, page 5>
+Package pdftex.def Info: figures//right_pressure_tex.pdf , page5 used on input 
+line 68.
+(pdftex.def)             Requested size: 273.60815pt x 68.16052pt.
+<figures//right_pressure_tex.pdf, id=884, page=6, 516.02368pt x 128.54617pt>
+File: figures//right_pressure_tex.pdf Graphic file (type pdf)
+<use figures//right_pressure_tex.pdf, page 6>
+Package pdftex.def Info: figures//right_pressure_tex.pdf , page6 used on input 
+line 70.
+(pdftex.def)             Requested size: 273.60815pt x 68.16052pt.
+<figures//right_pressure_tex.pdf, id=885, page=7, 516.02368pt x 128.54617pt>
+File: figures//right_pressure_tex.pdf Graphic file (type pdf)
+<use figures//right_pressure_tex.pdf, page 7>
+Package pdftex.def Info: figures//right_pressure_tex.pdf , page7 used on input 
+line 72.
+(pdftex.def)             Requested size: 273.60815pt x 68.16052pt.
+<figures//right_pressure_tex.pdf, id=886, page=8, 516.02368pt x 128.54617pt>
+File: figures//right_pressure_tex.pdf Graphic file (type pdf)
+<use figures//right_pressure_tex.pdf, page 8>
+Package pdftex.def Info: figures//right_pressure_tex.pdf , page8 used on input 
+line 74.
+(pdftex.def)             Requested size: 273.60815pt x 68.16052pt.
+<figures//right_pressure_tex.pdf, id=887, page=9, 516.02368pt x 128.54617pt>
+File: figures//right_pressure_tex.pdf Graphic file (type pdf)
+<use figures//right_pressure_tex.pdf, page 9>
+Package pdftex.def Info: figures//right_pressure_tex.pdf , page9 used on input 
+line 76.
+(pdftex.def)             Requested size: 273.60815pt x 68.16052pt.
+<figures//right_pressure_tex.pdf, id=888, page=10, 516.02368pt x 128.54617pt>
+File: figures//right_pressure_tex.pdf Graphic file (type pdf)
+<use figures//right_pressure_tex.pdf, page 10>
+Package pdftex.def Info: figures//right_pressure_tex.pdf , page10 used on input
+ line 78.
+(pdftex.def)             Requested size: 273.60815pt x 68.16052pt.
+<figures//right_pressure_tex.pdf, id=889, page=11, 516.02368pt x 128.54617pt>
+File: figures//right_pressure_tex.pdf Graphic file (type pdf)
+<use figures//right_pressure_tex.pdf, page 11>
+Package pdftex.def Info: figures//right_pressure_tex.pdf , page11 used on input
+ line 80.
+(pdftex.def)             Requested size: 273.60815pt x 68.16052pt.
+<figures//right_pressure_tex.pdf, id=890, page=12, 516.02368pt x 128.54617pt>
+File: figures//right_pressure_tex.pdf Graphic file (type pdf)
+<use figures//right_pressure_tex.pdf, page 12>
+Package pdftex.def Info: figures//right_pressure_tex.pdf , page12 used on input
+ line 82.
+(pdftex.def)             Requested size: 273.60815pt x 68.16052pt.
+<figures//right_pressure_tex.pdf, id=891, page=13, 516.02368pt x 128.54617pt>
+File: figures//right_pressure_tex.pdf Graphic file (type pdf)
+<use figures//right_pressure_tex.pdf, page 13>
+Package pdftex.def Info: figures//right_pressure_tex.pdf , page13 used on input
+ line 84.
+(pdftex.def)             Requested size: 273.60815pt x 68.16052pt.
+<figures//right_pressure_tex.pdf, id=892, page=14, 516.02368pt x 128.54617pt>
+File: figures//right_pressure_tex.pdf Graphic file (type pdf)
+<use figures//right_pressure_tex.pdf, page 14>
+Package pdftex.def Info: figures//right_pressure_tex.pdf , page14 used on input
+ line 86.
+(pdftex.def)             Requested size: 273.60815pt x 68.16052pt.
+<figures//right_pressure_tex.pdf, id=893, page=15, 516.02368pt x 128.54617pt>
+File: figures//right_pressure_tex.pdf Graphic file (type pdf)
+<use figures//right_pressure_tex.pdf, page 15>
+Package pdftex.def Info: figures//right_pressure_tex.pdf , page15 used on input
+ line 88.
+(pdftex.def)             Requested size: 273.60815pt x 68.16052pt.
+<figures//right_pressure_tex.pdf, id=894, page=16, 516.02368pt x 128.54617pt>
+File: figures//right_pressure_tex.pdf Graphic file (type pdf)
+<use figures//right_pressure_tex.pdf, page 16>
+Package pdftex.def Info: figures//right_pressure_tex.pdf , page16 used on input
+ line 91.
+(pdftex.def)             Requested size: 273.60815pt x 68.16052pt.
+<figures//right_pressure_tex.pdf, id=895, page=17, 516.02368pt x 128.54617pt>
+File: figures//right_pressure_tex.pdf Graphic file (type pdf)
+<use figures//right_pressure_tex.pdf, page 17>
+Package pdftex.def Info: figures//right_pressure_tex.pdf , page17 used on input
+ line 94.
+(pdftex.def)             Requested size: 273.60815pt x 68.16052pt.
+<figures//right_pressure_tex.pdf, id=896, page=18, 516.02368pt x 128.54617pt>
+File: figures//right_pressure_tex.pdf Graphic file (type pdf)
+<use figures//right_pressure_tex.pdf, page 18>
+Package pdftex.def Info: figures//right_pressure_tex.pdf , page18 used on input
+ line 97.
+(pdftex.def)             Requested size: 273.60815pt x 68.16052pt.
+<figures//right_pressure_tex.pdf, id=897, page=19, 516.02368pt x 128.54617pt>
+File: figures//right_pressure_tex.pdf Graphic file (type pdf)
+<use figures//right_pressure_tex.pdf, page 19>
+Package pdftex.def Info: figures//right_pressure_tex.pdf , page19 used on input
+ line 100.
+(pdftex.def)             Requested size: 273.60815pt x 68.16052pt.
+<figures//right_pressure_tex.pdf, id=898, page=20, 516.02368pt x 128.54617pt>
+File: figures//right_pressure_tex.pdf Graphic file (type pdf)
+<use figures//right_pressure_tex.pdf, page 20>
+Package pdftex.def Info: figures//right_pressure_tex.pdf , page20 used on input
+ line 103.
+(pdftex.def)             Requested size: 273.60815pt x 68.16052pt.
+<figures//right_pressure_tex.pdf, id=899, page=21, 516.02368pt x 128.54617pt>
+File: figures//right_pressure_tex.pdf Graphic file (type pdf)
+<use figures//right_pressure_tex.pdf, page 21>
+Package pdftex.def Info: figures//right_pressure_tex.pdf , page21 used on input
+ line 106.
+(pdftex.def)             Requested size: 273.60815pt x 68.16052pt.
+<figures//right_pressure_tex.pdf, id=900, page=22, 516.02368pt x 128.54617pt>
+File: figures//right_pressure_tex.pdf Graphic file (type pdf)
+<use figures//right_pressure_tex.pdf, page 22>
+Package pdftex.def Info: figures//right_pressure_tex.pdf , page22 used on input
+ line 109.
+(pdftex.def)             Requested size: 273.60815pt x 68.16052pt.
+<figures//right_pressure_tex.pdf, id=901, page=23, 516.02368pt x 128.54617pt>
+File: figures//right_pressure_tex.pdf Graphic file (type pdf)
+<use figures//right_pressure_tex.pdf, page 23>
+Package pdftex.def Info: figures//right_pressure_tex.pdf , page23 used on input
+ line 112.
+(pdftex.def)             Requested size: 273.60815pt x 68.16052pt.
+<figures//right_pressure_tex.pdf, id=902, page=24, 516.02368pt x 128.54617pt>
+File: figures//right_pressure_tex.pdf Graphic file (type pdf)
+<use figures//right_pressure_tex.pdf, page 24>
+Package pdftex.def Info: figures//right_pressure_tex.pdf , page24 used on input
+ line 115.
+(pdftex.def)             Requested size: 273.60815pt x 68.16052pt.
+<figures//right_pressure_tex.pdf, id=903, page=25, 516.02368pt x 128.54617pt>
+File: figures//right_pressure_tex.pdf Graphic file (type pdf)
+<use figures//right_pressure_tex.pdf, page 25>
+Package pdftex.def Info: figures//right_pressure_tex.pdf , page25 used on input
+ line 118.
+(pdftex.def)             Requested size: 273.60815pt x 68.16052pt.
+<figures//right_pressure_tex.pdf, id=904, page=26, 516.02368pt x 128.54617pt>
+File: figures//right_pressure_tex.pdf Graphic file (type pdf)
+<use figures//right_pressure_tex.pdf, page 26>
+Package pdftex.def Info: figures//right_pressure_tex.pdf , page26 used on input
+ line 120.
+(pdftex.def)             Requested size: 273.60815pt x 68.16052pt.
+<figures//right_pressure_tex.pdf, id=905, page=27, 516.02368pt x 128.54617pt>
+File: figures//right_pressure_tex.pdf Graphic file (type pdf)
+<use figures//right_pressure_tex.pdf, page 27>
+Package pdftex.def Info: figures//right_pressure_tex.pdf , page27 used on input
+ line 122.
+(pdftex.def)             Requested size: 273.60815pt x 68.16052pt.
+<figures//right_pressure_tex.pdf, id=906, page=28, 516.02368pt x 128.54617pt>
+File: figures//right_pressure_tex.pdf Graphic file (type pdf)
+<use figures//right_pressure_tex.pdf, page 28>
+Package pdftex.def Info: figures//right_pressure_tex.pdf , page28 used on input
+ line 124.
+(pdftex.def)             Requested size: 273.60815pt x 68.16052pt.
+<figures//right_pressure_tex.pdf, id=907, page=29, 516.02368pt x 128.54617pt>
+File: figures//right_pressure_tex.pdf Graphic file (type pdf)
+<use figures//right_pressure_tex.pdf, page 29>
+Package pdftex.def Info: figures//right_pressure_tex.pdf , page29 used on input
+ line 126.
+(pdftex.def)             Requested size: 273.60815pt x 68.16052pt.
+<figures//right_pressure_tex.pdf, id=908, page=30, 516.02368pt x 128.54617pt>
+File: figures//right_pressure_tex.pdf Graphic file (type pdf)
+<use figures//right_pressure_tex.pdf, page 30>
+Package pdftex.def Info: figures//right_pressure_tex.pdf , page30 used on input
+ line 128.
+(pdftex.def)             Requested size: 273.60815pt x 68.16052pt.
+<figures//right_pressure_tex.pdf, id=909, page=31, 516.02368pt x 128.54617pt>
+File: figures//right_pressure_tex.pdf Graphic file (type pdf)
+<use figures//right_pressure_tex.pdf, page 31>
+Package pdftex.def Info: figures//right_pressure_tex.pdf , page31 used on input
+ line 130.
+(pdftex.def)             Requested size: 273.60815pt x 68.16052pt.
+<figures//right_pressure_tex.pdf, id=910, page=32, 516.02368pt x 128.54617pt>
+File: figures//right_pressure_tex.pdf Graphic file (type pdf)
+<use figures//right_pressure_tex.pdf, page 32>
+Package pdftex.def Info: figures//right_pressure_tex.pdf , page32 used on input
+ line 132.
+(pdftex.def)             Requested size: 273.60815pt x 68.16052pt.
+<figures//right_pressure_tex.pdf, id=911, page=33, 516.02368pt x 128.54617pt>
+File: figures//right_pressure_tex.pdf Graphic file (type pdf)
+<use figures//right_pressure_tex.pdf, page 33>
+Package pdftex.def Info: figures//right_pressure_tex.pdf , page33 used on input
+ line 134.
+(pdftex.def)             Requested size: 273.60815pt x 68.16052pt.
+<figures//right_pressure_tex.pdf, id=912, page=34, 516.02368pt x 128.54617pt>
+File: figures//right_pressure_tex.pdf Graphic file (type pdf)
+<use figures//right_pressure_tex.pdf, page 34>
+Package pdftex.def Info: figures//right_pressure_tex.pdf , page34 used on input
+ line 136.
+(pdftex.def)             Requested size: 273.60815pt x 68.16052pt.
+<figures//right_pressure_tex.pdf, id=913, page=35, 516.02368pt x 128.54617pt>
+File: figures//right_pressure_tex.pdf Graphic file (type pdf)
+<use figures//right_pressure_tex.pdf, page 35>
+Package pdftex.def Info: figures//right_pressure_tex.pdf , page35 used on input
+ line 138.
+(pdftex.def)             Requested size: 273.60815pt x 68.16052pt.
+<figures//right_pressure_tex.pdf, id=914, page=36, 516.02368pt x 128.54617pt>
+File: figures//right_pressure_tex.pdf Graphic file (type pdf)
+<use figures//right_pressure_tex.pdf, page 36>
+Package pdftex.def Info: figures//right_pressure_tex.pdf , page36 used on input
+ line 140.
+(pdftex.def)             Requested size: 273.60815pt x 68.16052pt.
+<figures//right_pressure_tex.pdf, id=915, page=37, 516.02368pt x 128.54617pt>
+File: figures//right_pressure_tex.pdf Graphic file (type pdf)
+<use figures//right_pressure_tex.pdf, page 37>
+Package pdftex.def Info: figures//right_pressure_tex.pdf , page37 used on input
+ line 142.
+(pdftex.def)             Requested size: 273.60815pt x 68.16052pt.
+<figures//right_pressure_tex.pdf, id=916, page=38, 516.02368pt x 128.54617pt>
+File: figures//right_pressure_tex.pdf Graphic file (type pdf)
+<use figures//right_pressure_tex.pdf, page 38>
+Package pdftex.def Info: figures//right_pressure_tex.pdf , page38 used on input
+ line 144.
+(pdftex.def)             Requested size: 273.60815pt x 68.16052pt.
+<figures//right_pressure_tex.pdf, id=917, page=39, 516.02368pt x 128.54617pt>
+File: figures//right_pressure_tex.pdf Graphic file (type pdf)
+<use figures//right_pressure_tex.pdf, page 39>
+Package pdftex.def Info: figures//right_pressure_tex.pdf , page39 used on input
+ line 146.
+(pdftex.def)             Requested size: 273.60815pt x 68.16052pt.
+<figures//right_pressure_tex.pdf, id=918, page=40, 516.02368pt x 128.54617pt>
+File: figures//right_pressure_tex.pdf Graphic file (type pdf)
+<use figures//right_pressure_tex.pdf, page 40>
+Package pdftex.def Info: figures//right_pressure_tex.pdf , page40 used on input
+ line 148.
+(pdftex.def)             Requested size: 273.60815pt x 68.16052pt.
+<figures//right_pressure_tex.pdf, id=919, page=41, 516.02368pt x 128.54617pt>
+File: figures//right_pressure_tex.pdf Graphic file (type pdf)
+<use figures//right_pressure_tex.pdf, page 41>
+Package pdftex.def Info: figures//right_pressure_tex.pdf , page41 used on input
+ line 150.
+(pdftex.def)             Requested size: 273.60815pt x 68.16052pt.
+) (./figures//p_right_neg_tex.pdf_tex
+<figures//p_right_neg_tex.pdf, id=920, page=1, 421.67207pt x 120.345pt>
+File: figures//p_right_neg_tex.pdf Graphic file (type pdf)
+<use figures//p_right_neg_tex.pdf, page 1>
+Package pdftex.def Info: figures//p_right_neg_tex.pdf , page1 used on input lin
+e 56.
+(pdftex.def)             Requested size: 123.43443pt x 35.22784pt.
+) (./figures//p_right_pos_tex.pdf_tex
+<figures//p_right_pos_tex.pdf, id=921, page=1, 422.32594pt x 126.58626pt>
+File: figures//p_right_pos_tex.pdf Graphic file (type pdf)
+<use figures//p_right_pos_tex.pdf, page 1>
+Package pdftex.def Info: figures//p_right_pos_tex.pdf , page1 used on input lin
+e 56.
+(pdftex.def)             Requested size: 123.43443pt x 36.99687pt.
+) (./figures//side_1_tex.pdf_tex
+<figures//side_1_tex.pdf, id=922, page=1, 408.46588pt x 110.88359pt>
+File: figures//side_1_tex.pdf Graphic file (type pdf)
+<use figures//side_1_tex.pdf, page 1>
+Package pdftex.def Info: figures//side_1_tex.pdf , page1 used on input line 56.
+
+(pdftex.def)             Requested size: 92.57426pt x 25.13045pt.
+)
+(./figures//side_2_tex.pdf_tex
+<figures//side_2_tex.pdf, id=923, page=1, 409.46628pt x 118.83827pt>
+File: figures//side_2_tex.pdf Graphic file (type pdf)
+<use figures//side_2_tex.pdf, page 1>
+Package pdftex.def Info: figures//side_2_tex.pdf , page1 used on input line 56.
+
+(pdftex.def)             Requested size: 92.57426pt x 26.8662pt.
+) (./figures//opposite_1_tex.pdf_tex
+<figures//opposite_1_tex.pdf, id=924, page=1, 410.4153pt x 115.20122pt>
+File: figures//opposite_1_tex.pdf Graphic file (type pdf)
+<use figures//opposite_1_tex.pdf, page 1>
+Package pdftex.def Info: figures//opposite_1_tex.pdf , page1 used on input line
+ 56.
+(pdftex.def)             Requested size: 92.57426pt x 25.98419pt.
+)
+(./figures//opposite_2_tex.pdf_tex
+<figures//opposite_2_tex.pdf, id=925, page=1, 404.51373pt x 119.32039pt>
+File: figures//opposite_2_tex.pdf Graphic file (type pdf)
+<use figures//opposite_2_tex.pdf, page 1>
+Package pdftex.def Info: figures//opposite_2_tex.pdf , page1 used on input line
+ 56.
+(pdftex.def)             Requested size: 92.57426pt x 27.30655pt.
+) (./figures//p_null_tex.pdf_tex
+<figures//p_null_tex.pdf, id=926, page=1, 423.40443pt x 117.49315pt>
+File: figures//p_null_tex.pdf Graphic file (type pdf)
+<use figures//p_null_tex.pdf, page 1>
+Package pdftex.def Info: figures//p_null_tex.pdf , page1 used on input line 56.
+
+(pdftex.def)             Requested size: 123.43443pt x 34.25142pt.
+)
+(./figures//p_null_displ_tex.pdf_tex
+<figures//p_null_displ_tex.pdf, id=927, page=1, 434.77446pt x 115.99385pt>
+File: figures//p_null_displ_tex.pdf Graphic file (type pdf)
+<use figures//p_null_displ_tex.pdf, page 1>
+Package pdftex.def Info: figures//p_null_displ_tex.pdf , page1 used on input li
+ne 56.
+(pdftex.def)             Requested size: 131.66507pt x 35.12762pt.
+)
+Overfull \vbox (1.90167pt too high) detected at line 273
+ []
+
+[6
+
+ <./figures//right_pressure_tex.pdf> <./figures//right_pressure_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//right_pressure_tex.pdf): PDF incl
+usion: multiple pdfs with page group included in a single page
+> <./figures//right_pressure_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//right_pressure_tex.pdf): PDF incl
+usion: multiple pdfs with page group included in a single page
+> <./figures//right_pressure_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//right_pressure_tex.pdf): PDF incl
+usion: multiple pdfs with page group included in a single page
+> <./figures//right_pressure_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//right_pressure_tex.pdf): PDF incl
+usion: multiple pdfs with page group included in a single page
+> <./figures//right_pressure_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//right_pressure_tex.pdf): PDF incl
+usion: multiple pdfs with page group included in a single page
+> <./figures//right_pressure_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//right_pressure_tex.pdf): PDF incl
+usion: multiple pdfs with page group included in a single page
+> <./figures//right_pressure_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//right_pressure_tex.pdf): PDF incl
+usion: multiple pdfs with page group included in a single page
+> <./figures//right_pressure_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//right_pressure_tex.pdf): PDF incl
+usion: multiple pdfs with page group included in a single page
+> <./figures//right_pressure_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//right_pressure_tex.pdf): PDF incl
+usion: multiple pdfs with page group included in a single page
+> <./figures//right_pressure_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//right_pressure_tex.pdf): PDF incl
+usion: multiple pdfs with page group included in a single page
+> <./figures//right_pressure_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//right_pressure_tex.pdf): PDF incl
+usion: multiple pdfs with page group included in a single page
+> <./figures//right_pressure_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//right_pressure_tex.pdf): PDF incl
+usion: multiple pdfs with page group included in a single page
+> <./figures//right_pressure_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//right_pressure_tex.pdf): PDF incl
+usion: multiple pdfs with page group included in a single page
+> <./figures//right_pressure_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//right_pressure_tex.pdf): PDF incl
+usion: multiple pdfs with page group included in a single page
+> <./figures//right_pressure_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//right_pressure_tex.pdf): PDF incl
+usion: multiple pdfs with page group included in a single page
+> <./figures//right_pressure_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//right_pressure_tex.pdf): PDF incl
+usion: multiple pdfs with page group included in a single page
+> <./figures//right_pressure_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//right_pressure_tex.pdf): PDF incl
+usion: multiple pdfs with page group included in a single page
+> <./figures//right_pressure_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//right_pressure_tex.pdf): PDF incl
+usion: multiple pdfs with page group included in a single page
+> <./figures//right_pressure_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//right_pressure_tex.pdf): PDF incl
+usion: multiple pdfs with page group included in a single page
+> <./figures//right_pressure_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//right_pressure_tex.pdf): PDF incl
+usion: multiple pdfs with page group included in a single page
+> <./figures//right_pressure_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//right_pressure_tex.pdf): PDF incl
+usion: multiple pdfs with page group included in a single page
+> <./figures//right_pressure_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//right_pressure_tex.pdf): PDF incl
+usion: multiple pdfs with page group included in a single page
+> <./figures//right_pressure_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//right_pressure_tex.pdf): PDF incl
+usion: multiple pdfs with page group included in a single page
+> <./figures//right_pressure_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//right_pressure_tex.pdf): PDF incl
+usion: multiple pdfs with page group included in a single page
+> <./figures//right_pressure_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//right_pressure_tex.pdf): PDF incl
+usion: multiple pdfs with page group included in a single page
+> <./figures//right_pressure_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//right_pressure_tex.pdf): PDF incl
+usion: multiple pdfs with page group included in a single page
+> <./figures//right_pressure_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//right_pressure_tex.pdf): PDF incl
+usion: multiple pdfs with page group included in a single page
+> <./figures//right_pressure_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//right_pressure_tex.pdf): PDF incl
+usion: multiple pdfs with page group included in a single page
+> <./figures//right_pressure_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//right_pressure_tex.pdf): PDF incl
+usion: multiple pdfs with page group included in a single page
+> <./figures//right_pressure_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//right_pressure_tex.pdf): PDF incl
+usion: multiple pdfs with page group included in a single page
+> <./figures//right_pressure_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//right_pressure_tex.pdf): PDF incl
+usion: multiple pdfs with page group included in a single page
+> <./figures//right_pressure_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//right_pressure_tex.pdf): PDF incl
+usion: multiple pdfs with page group included in a single page
+> <./figures//right_pressure_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//right_pressure_tex.pdf): PDF incl
+usion: multiple pdfs with page group included in a single page
+> <./figures//right_pressure_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//right_pressure_tex.pdf): PDF incl
+usion: multiple pdfs with page group included in a single page
+> <./figures//right_pressure_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//right_pressure_tex.pdf): PDF incl
+usion: multiple pdfs with page group included in a single page
+> <./figures//right_pressure_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//right_pressure_tex.pdf): PDF incl
+usion: multiple pdfs with page group included in a single page
+> <./figures//right_pressure_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//right_pressure_tex.pdf): PDF incl
+usion: multiple pdfs with page group included in a single page
+> <./figures//right_pressure_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//right_pressure_tex.pdf): PDF incl
+usion: multiple pdfs with page group included in a single page
+> <./figures//right_pressure_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//right_pressure_tex.pdf): PDF incl
+usion: multiple pdfs with page group included in a single page
+> <./figures//right_pressure_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//right_pressure_tex.pdf): PDF incl
+usion: multiple pdfs with page group included in a single page
+> <./figures//p_right_neg_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//p_right_neg_tex.pdf): PDF inclusi
+on: multiple pdfs with page group included in a single page
+> <./figures//p_right_pos_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//p_right_pos_tex.pdf): PDF inclusi
+on: multiple pdfs with page group included in a single page
+> <./figures//side_1_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//side_1_tex.pdf): PDF inclusion: m
+ultiple pdfs with page group included in a single page
+> <./figures//side_2_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//side_2_tex.pdf): PDF inclusion: m
+ultiple pdfs with page group included in a single page
+> <./figures//opposite_1_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//opposite_1_tex.pdf): PDF inclusio
+n: multiple pdfs with page group included in a single page
+> <./figures//opposite_2_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//opposite_2_tex.pdf): PDF inclusio
+n: multiple pdfs with page group included in a single page
+> <./figures//p_null_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//p_null_tex.pdf): PDF inclusion: m
+ultiple pdfs with page group included in a single page
+> <./figures//p_null_displ_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//p_null_displ_tex.pdf): PDF inclus
+ion: multiple pdfs with page group included in a single page
+>]
 \tf@nav=\write6
 \openout6 = `my_beamer.nav'.
 
@@ -1653,30 +3285,40 @@ ltiple pdfs with page group included in a single page
 \openout8 = `my_beamer.snm'.
 
  (./my_beamer.aux)
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 3.5pt have occurred.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
 Package rerunfilecheck Info: File `my_beamer.out' has not changed.
 (rerunfilecheck)             Checksum: 65F2C9F0DC09CB7504E7C1CFD3FF7492;111.
  ) 
 Here is how much of TeX's memory you used:
- 26563 strings out of 478579
- 537795 string characters out of 5857457
- 822565 words of memory out of 5000000
- 43874 multiletter control sequences out of 15000+600000
- 415024 words of font info for 70 fonts, out of 8000000 for 9000
+ 27234 strings out of 478579
+ 565774 string characters out of 5857457
+ 866434 words of memory out of 5000000
+ 44486 multiletter control sequences out of 15000+600000
+ 418893 words of font info for 85 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,18n,124p,434b,750s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 128i,23n,124p,434b,750s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/tex
 live/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2021
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2021/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2021/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmr5.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmss10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pf
-b><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb><c:/tex
-live/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb>
-Output written on my_beamer.pdf (6 pages, 8821546 bytes).
+/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb><c:/texlive/2021/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2021/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2021/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmr5.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
+8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb><c:/
+texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb><c:/texlive/2
+021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb><c:/texlive/2021/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2021/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmtt8.pfb>
+Output written on my_beamer.pdf (6 pages, 9305073 bytes).
 PDF statistics:
- 808 PDF objects out of 1000 (max. 8388607)
- 469 compressed objects within 5 object streams
+ 1026 PDF objects out of 1200 (max. 8388607)
+ 516 compressed objects within 6 object streams
  14 named destinations out of 1000 (max. 500000)
- 361 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1101 words of extra memory for PDF output out of 10000 (max. 10000000)
 
