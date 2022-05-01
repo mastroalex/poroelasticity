@@ -14,6 +14,29 @@ Most biological tissues can be seen as porous, permeable and deformable media wi
 
 ---
 
+```mathematica
+ << AceFEM ‘;
+SimulationComplete[alpha_ , axialLoad_ , trasLoad_] := (
+displacement = Table[{0*i, 0, 0}, {i, 1, Length[alpha]}];
+Do[
+Print["α=", alpha[[i]]];
+MyGeometry[alpha[[i]], axialLoad , trasLoad];
+FEMModel [];
+Coordinate [];
+Solution [];
+Print[Show[SMTShowMesh["DeformedMesh" -> True, "Mesh" -> GrayLevel[0.9]], SMTShowMesh["
+FillElements" -> False, "BoundaryConditions" -> True, "Mesh" -> GrayLevel[0]]]]; displacement[[i]] = PostProcessMyDisplacement[alpha[[i]]];,
+{i, 1, Length[alpha]}];
+PrintMyDisplacement[displacement , alpha]; ;
+(***)
+alpha = {0, 10, 20, 30, 40, 50, 60, 70, 80, 90};
+axLoad = 2*10^3* (L/10);
+trLoad = 0.02*10^3;
+SimulationComplete[alpha, axLoad, trLoad]
+```
+
+ ---
+
  ![](https://github.com/mastroalex/poroelasticity/blob/main/report/figures/punch_frame_2_tex.svg)
  
  ---
