@@ -15,24 +15,24 @@ Most biological tissues can be seen as porous, permeable and deformable media wi
 ---
 
 ```mathematica
- << AceFEM ‘;
-SimulationComplete[alpha_ , axialLoad_ , trasLoad_] := (
-displacement = Table[{0*i, 0, 0}, {i, 1, Length[alpha]}];
 Do[
-Print["α=", alpha[[i]]];
-MyGeometry[alpha[[i]], axialLoad , trasLoad];
-FEMModel [];
-Coordinate [];
-Solution [];
-Print[Show[SMTShowMesh["DeformedMesh" -> True, "Mesh" -> GrayLevel[0.9]], SMTShowMesh["
-FillElements" -> False, "BoundaryConditions" -> True, "Mesh" -> GrayLevel[0]]]]; displacement[[i]] = PostProcessMyDisplacement[alpha[[i]]];,
-{i, 1, Length[alpha]}];
-PrintMyDisplacement[displacement , alpha]; ;
-(***)
-alpha = {0, 10, 20, 30, 40, 50, 60, 70, 80, 90};
-axLoad = 2*10^3* (L/10);
-trLoad = 0.02*10^3;
-SimulationComplete[alpha, axLoad, trLoad]
+ SetupSimulation[pressureBC[[i]], "drainBorder" -> "down"];
+ Print["pressure BC: ", pressureBC[[i]]];
+ tempVector = SolveSimulation[];
+ myPressureTotal[[i]] = tempVector[[1]];
+ myDisplacementTotal[[i]] = tempVector[[2]];
+ displacementMax[[i]] = Min[myDisplacementTotal[[i, All, 2]]];
+ pressureMax[[i]] = Max[myPressureTotal[[i, All, 2]]];
+ Print[Show[SMTShowMesh["FillElements" -> False, ImageSize -> 400], 
+   SMTShowMesh["Field" -> "p", "DeformedMesh" -> True, 
+    ImageSize -> 400]], 
+  Show[SMTShowMesh["FillElements" -> False, ImageSize -> 400], 
+   SMTShowMesh["Field" -> "v", "DeformedMesh" -> True, 
+    ImageSize -> 400]]]
+ (*If[i==(Length[pressureBC]+1)/2,SMTAnimationOfResponse["Export \
+to","mp4","FirstFrame"->"LastFrame","FileName"->"punch_test_null_BC",\
+FrameRate->2]];*)
+ , {i, 1, Length[pressureBC]}]
 ```
 
  ---
